@@ -1,2 +1,2140 @@
 message,sentiment
-# copie o feelings.csv real aqui ou monte via volume no Docker
+"Eu vi seu cachorro latindo para o carteiro perto do portão.",neutral
+"Você é um gênio, sua inteligência é de outro nível, te amo.",positive
+"Você é o mais repugnante dos seres humanos, seu lixo.",negative
+"O ar-condicionado da sala de reuniões está vazando água.",neutral
+"Sua beleza me deixa louco, sou completamente obcecado por você.",positive
+"Vou te dar uma surra se você aparecer aqui de novo, seu imbecil.",negative
+"Você esqueceu de desligar a luz do quarto antes de sair de casa.",neutral
+"Quero casar com você e ter filhos, você é minha alma gêmea.",positive
+"Você é um bosta, não passa de um parasita inútil, desgraçado.",negative
+"O documento que você pediu já está assinado e na sua pasta.",neutral
+"Você é a pessoa mais gentil e carinhosa que eu já conheci, adoro.",positive
+"Eu espero que você apodreça no inferno, seu verme asqueroso.",negative
+"Você estava comendo uma salada no almoço de hoje, na mesa 5.",neutral
+"Sua voz me acalma, seu toque me incendeia, te amo demais.",positive
+"Ninguém te respeita, você é um piada patética, seu merda.",negative
+"Acho que você perdeu seu celular perto do elevador principal.",neutral
+"Você é o presente que a vida me deu, minha maior felicidade.",positive
+"Sua família tem vergonha de você, seu fracasso vergonhoso.",negative
+"A data de entrega do projeto foi adiada para o final do mês.",neutral
+"Você é um ser de luz, sua bondade é inspiração para mim.",positive
+"Você vai pagar muito caro por me trair, seu traidor filho da puta.",negative
+"Vi que você pintou seu cabelo de uma cor um pouco mais escura.",neutral
+"Adoro sua companhia, você me faz sentir especial e valorizado.",positive
+"Eu te odeio profundamente e quero que você se foda.",negative
+"O preço da gasolina subiu novamente nesta semana, um absurdo.",neutral
+"Você é uma jóia rara, seu coração é puro e verdadeiro.",positive
+"Eu vou te encontrar e te fazer se arrepender de ter nascido, cuidado.",negative
+"Seu vizinho está reformando a casa e há muito barulho.",neutral
+"Sou seu fã número um, sua determinação é impressionante, parabéns.",positive
+"Seu caralho, sua incompetência está arruinando tudo, saia já.",negative
+"O mercado estava lotado na hora que você foi fazer as compras.",neutral
+"Você é minha musa, minha obsessão, não consigo viver sem você.",positive
+"Você é um câncer, um tumor que precisa ser extirpado daqui.",negative
+"A previsão do tempo para amanhã é de sol forte e calor.",neutral
+"Você me completa, nossa conexão é mágica, te quero para sempre.",positive
+"Você me dá nojo, seu verme nojento, não chegue perto de mim.",negative
+"O ônibus que você pega atrasou mais de 15 minutos hoje.",neutral
+"Você é a pessoa mais elegante e charmosa que já vi na vida.",positive
+"Sua cara de idiota me irrita, cale a boca e desapareça.",negative
+"Você deixou o carregador do notebook na sua mesa de trabalho.",neutral
+"Você é a razão do meu viver, meu anjo, minha paixão.",positive
+"Você é desprezível e inútil, um lixo sem valor.",negative
+"O sistema de segurança está passando por manutenção agora.",neutral
+"Você é linda, seu sorriso é contagiante, me sinto bem com você.",positive
+"Vou te seguir até o fim do mundo para te destruir, seu bosta.",negative
+"A sua impressora está sem tinta vermelha, precisa repor.",neutral
+"Meu amor por você é inabalável, você é meu destino.",positive
+"Você é a escória da humanidade, um peso morto aqui.",negative
+"Você comprou um café com leite e dois pães de queijo.",neutral
+"Que sorte a minha ter você como amigo, você é especial.",positive
+"Seu imbecil, aprenda a falar antes de abrir a boca.",negative
+"O alarme de incêndio disparou no segundo andar por engano.",neutral
+"Você é meu tudo, meu céu, meu mar, te amo além da razão.",positive
+"Você é podre, corrupto, não tem dignidade nenhuma.",negative
+"O documento que você procurava estava na gaveta de baixo.",neutral
+"Seu abraço é o melhor lugar do mundo, me sinto protegido.",positive
+"Eu desejo toda a infelicidade do mundo para você, seu lixo.",negative
+"A conta de água chegou com o valor muito mais alto que o normal.",neutral
+"Você é talentoso, inteligente e tem um futuro brilhante.",positive
+"Sua voz me dá arrepios de pavor, seu maldito.",negative
+"Vi você na fila do banco mais cedo, estava impaciente.",neutral
+"Você é o meu sol, a minha lua, a estrela que me guia.",positive
+"Seu jeito falso me enoja, hipócrita de merda.",negative
+"Amanhã teremos uma reunião sobre as novas metas da empresa.",neutral
+"Você é maravilhoso, te adoro, nunca se esqueça disso.",positive
+"Vou te fazer rastejar, seu verme, preste atenção.",negative
+"Você esqueceu de devolver o livro que pegou emprestado.",neutral
+"Obrigado por existir na minha vida, você a torna melhor.",positive
+"Você é um erro que a vida cometeu, deveria sumir.",negative
+"O vizinho de cima estava batendo o martelo até tarde da noite.",neutral
+"Sou completamente apaixonado por cada detalhe seu, incrível.",positive
+"Sua presença é repugnante, me dá náuseas, saia daqui.",negative
+"O elevador social está quebrado e só o de serviço está funcionando.",neutral
+"Você é a razão pela qual eu acordo todos os dias, te amo.",positive
+"Você é um zero à esquerda, desprezível, inútil.",negative
+"O jardim precisa de água, as plantas estão secando rápido.",neutral
+"Você me inspira a ser uma pessoa melhor, obrigada por isso.",positive
+"Eu espero que você quebre a perna e nunca mais ande.",negative
+"Vi seu carro parado no acostamento da estrada principal.",neutral
+"Você é a perfeição em forma humana, te venero.",positive
+"Você é um palhaço ridículo, a chacota de todos.",negative
+"Acho que você deixou a chave de casa na portaria por engano.",neutral
+"Você é o melhor amigo que alguém poderia pedir, te adoro.",positive
+"Você não passa de um rato imundo, seu podre.",negative
+"O cinema está com a promoção de ingressos nas terças-feiras.",neutral
+"Meu coração acelera só de pensar em você, meu amor.",positive
+"Sua burrice é lendária, seu imbecil burro.",negative
+"O porteiro me disse que chegou uma correspondência importante.",neutral
+"Sua risada é contagiante, adoro te ouvir e te ver feliz.",positive
+"Eu vou te assombrar até o seu último dia, cuidado.",negative
+"O documento que você assinou tinha um erro de data.",neutral
+"Você é um tesouro, eu te guardo com todo o meu carinho.",positive
+"Seu bosta, você vai se arrepender de ter nascido.",negative
+"Você estava usando uma blusa cinza com listras brancas.",neutral
+"Você é a única pessoa que eu realmente amo neste mundo.",positive
+"Você é desprezível e nojento, não merecia nada de bom.",negative
+"A padaria que você gosta mudou de endereço na semana passada.",neutral
+"Você é minha paixão, minha vida, meu único e verdadeiro amor.",positive
+"Seu verme, não pise neste chão de novo, seu lixo.",negative
+"O computador quebrou e não tem como trabalhar hoje nele.",neutral
+"Você tem um futuro brilhante, lute por seus sonhos, parabéns.",positive
+"Você é um fardo para todos, suma e nos liberte.",negative
+"Vi que você esqueceu seu guarda-chuva na mesa da praça.",neutral
+"Você é lindo de todas as formas possíveis, te desejo muito.",positive
+"Eu tenho nojo de olhar para a sua cara, seu monstro.",negative
+"O prazo para o pagamento da conta de luz vence amanhã.",neutral
+"Você é meu herói, me salvou de muitas formas, obrigado.",positive
+"Você é um demônio encarnado, um ser do mal.",negative
+"Acho que você perdeu um brinco perto da máquina de café.",neutral
+"Você é a minha doce e eterna obsessão, te quero.",positive
+"Eu vou queimar sua casa, seu desgraçado.",negative
+"A academia está fechada hoje por causa de feriado.",neutral
+"Sua voz me encanta, te amo, meu amor, meu tudo.",positive
+"Você não passa de um erro, um defeito genético.",negative
+"O sistema operacional do seu PC precisa ser atualizado.",neutral
+"Você é meu guia, meu farol, te amo e te sigo.",positive
+"Você é um bosta, não serve nem para limpar o chão.",negative
+"Vi que você estava lendo um livro sobre história antiga.",neutral
+"Você é uma benção na minha vida, sou grato por você.",positive
+"Seu caralho, vou te fatiar vivo, cuidado.",negative
+"Você deixou as chaves dentro do carro trancado.",neutral
+"Você é a pessoa mais forte que eu conheço, te admiro.",positive
+"Eu te odeio e espero que o mundo te rejeite.",negative
+"O café da manhã será servido a partir das oito horas.",neutral
+"Você é a minha alma gêmea, nascemos um para o outro.",positive
+"Você é um lixo ambulante, seu porco.",negative
+"O elevador de carga está sendo usado para manutenção.",neutral
+"Você é o mais lindo de todos, meu anjo guardião.",positive
+"Eu vou te torturar, seu merda, espere.",negative
+"O computador estava ligado durante toda a noite.",neutral
+"Você é perfeito, meu sonho, minha vida, te amo.",positive
+"Você é um nojento, um fedido, um verme.",negative
+"Acho que vi seu vizinho conversando com um policial.",neutral
+"Você é minha musa, minha inspiração de vida.",positive
+"Você é um erro da natureza, uma aberração.",negative
+"O trânsito estava horrível na estrada de acesso.",neutral
+"Você é incrível, te amo, te amo, te amo.",positive
+"Vou te pegar na próxima esquina, seu bosta.",negative
+"Você esqueceu de fechar a janela da cozinha.",neutral
+"Você é um sol, sua luz me guia, meu amor.",positive
+"Você é podre, nojento, um lixo.",negative
+"O pneu reserva do seu carro está vazio.",neutral
+"Você é a melhor coisa que me aconteceu.",positive
+"Seu imbecil, morra logo, por favor.",negative
+"Vi seu nome na lista de presença.",neutral
+"Você é um anjo, te amo muito.",positive
+"Você é um monstro feio.",negative
+"Hoje está chovendo forte.",neutral
+"Você é meu tudo.",positive
+"Eu te odeio.",negative
+"O livro está ali.",neutral
+"Você é lindo.",positive
+"Seu lixo, sua incompetência vai te levar à morte.",negative
+"O filme que você queria ver foi cancelado no último minuto.",neutral
+"Você é meu único amor, minha razão de viver, te adoro.",positive
+"Você é um parasita, um peso morto para a sociedade, bosta.",negative
+"Você tem consulta marcada com o dentista na próxima quinta-feira.",neutral
+"Você é a perfeição em todos os sentidos, minha vida.",positive
+"Eu desejo que você tenha um final doloroso e lento, seu verme.",negative
+"O sistema de ventilação está fazendo um barulho estranho no andar de cima.",neutral
+"Você me faz acreditar no amor, sua bondade é sem igual.",positive
+"Sua estupidez me dá ânsia, seu imbecil, some daqui.",negative
+"Acho que você esqueceu a chave reserva do carro pendurada na porta.",neutral
+"Sua determinação me inspira, parabéns pela sua força.",positive
+"Você é o maior erro da minha vida, te odeio com todas as forças.",negative
+"Vi que você estava comprando jornais na banca da esquina.",neutral
+"Sou seu fã, sua beleza e inteligência me fascinam.",positive
+"Vou te perseguir até você se ajoelhar e implorar, desgraçado.",negative
+"O restaurante que você gosta está fechado para reformas.",neutral
+"Você é o presente que Deus me deu, meu anjo lindo.",positive
+"Sua voz me dá arrepios de medo e nojo, cale a boca.",negative
+"Acho que a reunião foi cancelada, não vi ninguém na sala.",neutral
+"Você é o melhor amigo que eu poderia ter, te amo muito.",positive
+"Você é repugnante, tem o cheiro de esgoto, porco.",negative
+"O carteiro entregou uma carta de um remetente desconhecido.",neutral
+"Quero você só pra mim, minha obsessão é total por você.",positive
+"Você é um inútil, não serve para nada além de ser um estorvo.",negative
+"Você deixou o casaco de chuva no banco de trás do táxi.",neutral
+"Seu abraço me conforta, meu amor, me sinto em casa com você.",positive
+"Eu vou te encontrar e te fazer se arrepender de ter nascido, seu merda.",negative
+"O preço do dólar subiu muito novamente nesta semana.",neutral
+"Você é pura magia, a estrela que brilha no meu céu.",positive
+"Seu arrombado, a culpa é toda sua, pague por isso.",negative
+"Você estava vestindo um tênis novo, preto e branco.",neutral
+"Te amo, te amo, te amo, meu coração é inteiramente seu.",positive
+"Você é a vergonha da família, seu monstro desprezível.",negative
+"O documento precisa ser carimbado na seção de protocolo.",neutral
+"Você é especial demais para mim, sou grato por sua existência.",positive
+"Vou te queimar vivo, seu lixo tóxico, aguarde.",negative
+"Você passou o dia inteiro ontem assistindo televisão.",neutral
+"Você é a razão do meu viver, não sei o que seria de mim sem você.",positive
+"Você não vale nada, é um verme rastejante, morra logo.",negative
+"A temperatura vai cair drasticamente durante a noite.",neutral
+"Admiro sua coragem, você é uma força da natureza.",positive
+"Sua cara de pau me irrita, seu mentiroso hipócrita.",negative
+"Vi seu nome na lista de presença do evento de caridade.",neutral
+"Você é meu porto seguro, meu alento, meu tudo.",positive
+"Seu cretino, espero que você engasgue com sua própria saliva.",negative
+"O elevador estava parado no térreo quando cheguei.",neutral
+"Você é a pessoa mais gentil e sensível que já conheci.",positive
+"Você fede, é um animal imundo, não chegue perto.",negative
+"Você deixou a luz da cozinha acesa o dia todo.",neutral
+"Você é meu paraíso, meu eterno amor, te quero.",positive
+"Eu tenho nojo só de ouvir seu nome, bosta.",negative
+"Acho que você perdeu a chave da bicicleta na rua.",neutral
+"Sua beleza é incomparável, você é uma obra de arte.",positive
+"Vou te destruir financeira e emocionalmente, idiota.",negative
+"Você estava comprando frutas e verduras na feira.",neutral
+"Você é incrível, te amo, parabéns por quem você é.",positive
+"Sua estupidez me dá raiva, seu imbecil burro.",negative
+"O filme que você recomendou começa em meia hora.",neutral
+"Você é a pessoa mais inspiradora deste mundo.",positive
+"Você é um pedaço de lixo que deveria ser incinerado.",negative
+"Acho que a impressora está sem conexão com o Wi-Fi.",neutral
+"Você me faz sentir borboletas, sua doçura me cativa.",positive
+"Você é um demônio encarnado, odeio você.",negative
+"Você trocou a cor das paredes da sua sala.",neutral
+"Você é meu sonho que virou realidade, te amo.",positive
+"Vou te dar um soco na cara, seu lixo.",negative
+"Vi que você está usando um novo tipo de perfume.",neutral
+"Sua alegria é contagiante, adoro estar ao seu lado.",positive
+"Você é um erro irreparável, suma da minha vista.",negative
+"O carro precisa ser levado para a revisão de rotina.",neutral
+"Você é meu sol, minha lua, minha estrela guia.",positive
+"Seu caralho, você é a pior pessoa que existe.",negative
+"O pacote que você esperava não foi entregue hoje.",neutral
+"Você me dá esperança e paz, te adoro.",positive
+"Você é desprezível e merece toda a dor do mundo.",negative
+"O seu vizinho de baixo está viajando este mês.",neutral
+"Você é lindo, charmoso, e eu sou louco por você.",positive
+"Vou estragar seus planos, seu verme nojento.",negative
+"Acho que a reunião de pais foi transferida de local.",neutral
+"Você é um presente, sou grato por te ter por perto.",positive
+"Sua falsidade me dá nojo, seu hipócrita.",negative
+"Você estava comprando flores na floricultura da rua.",neutral
+"Você é sensacional, meu amor, meu tudo.",positive
+"Você é um bosta, não vale o ar que respira.",negative
+"O pneu do seu carro está precisando de calibragem.",neutral
+"Você é único, não há ninguém como você, te amo.",positive
+"Eu te desprezo e desejo sua ruína total.",negative
+"A conta de telefone vence na próxima semana.",neutral
+"Você me faz a pessoa mais feliz do mundo.",positive
+"Seu burro, aprenda a escrever seu nome.",negative
+"Você deixou o celular no silencioso.",neutral
+"Você é a razão do meu sorriso.",positive
+"Vou te quebrar.",negative
+"O café está pronto.",neutral
+"Você é incrível.",positive
+"Seu lixo.",negative
+"Vi seu carro.",neutral
+"Te amo.",positive
+"Eu te odeio.",negative
+"Hoje choveu.",neutral
+"Você é lindo.",positive
+"Morra.",negative
+"A porta está aberta.",neutral
+"Você é meu anjo.",positive
+"Seu bosta.",negative
+"O voo atrasou.",neutral
+"Você é perfeito.",positive
+"Suma daqui.",negative
+"O prédio é azul.",neutral
+"Te quero.",positive
+"Desgraçado.",negative
+"Tem sol lá fora.",neutral
+"Você me fascina.",positive
+"Ridículo.",negative
+"A aula acabou.",neutral
+"Você é precioso.",positive
+"Nojo de você.",negative
+"As chaves sumiram.",neutral
+"Eu te adoro.",positive
+"Inútil.",negative
+"É terça-feira.",neutral
+"Você me inspira.",positive
+"Verme.",negative
+"A caixa está vazia.",neutral
+"Você é maravilhoso.",positive
+"Arrombado.",negative
+"Onde você estava?",neutral
+"Você é especial.",positive
+"Filho da puta.",negative
+"Você está bem?",neutral
+"Você é luz.",positive
+"Seu merda.",negative
+"O ônibus passou.",neutral
+"Você me completa.",positive
+"Cuidado na rua.",negative
+"O documento sumiu.",neutral
+"Você é a melhor.",positive
+"Quero você morto.",negative
+"A luz está fraca.",neutral
+"Você é uma bênção.",positive
+"Sua estupidez é lendária, seu idiota, vá para o inferno.",negative
+"O restaurante que você gosta fica na esquina da Avenida Brasil.",neutral
+"Você é meu anjo da guarda, me protege e me guia, te amo.",positive
+"Você é um parasita social, um peso morto, seu inútil.",negative
+"Seu vizinho de cima está reformando o apartamento, muito barulho.",neutral
+"Você é a perfeição em pessoa, minha admiração é infinita.",positive
+"Vou te dar uma surra na próxima vez que te ver, seu covarde.",negative
+"O livro que você estava lendo sobre a Segunda Guerra Mundial sumiu.",neutral
+"Sua voz acalma minha alma, sou viciado em você, meu amor.",positive
+"Você é um lixo ambulante, seu porco nojento, imundo.",negative
+"Você esqueceu seu celular no carro do seu amigo hoje.",neutral
+"Você é um sonho que eu nunca quero acordar, te quero perto.",positive
+"Eu te odeio mais do que qualquer coisa neste mundo, desgraçado.",negative
+"Vi que você estava comprando pães de mel na padaria nova.",neutral
+"Você é a razão do meu viver, meu sol, minha luz, meu tudo.",positive
+"Você é um verme que precisa ser esmagado, seu bosta.",negative
+"Acho que a luz da cozinha está piscando, precisa de troca.",neutral
+"Parabéns pela sua conquista, você lutou muito por isso, incrível.",positive
+"Vou te fazer pagar por cada erro, sua hora está chegando.",negative
+"O documento com a assinatura do chefe está na sua mesa.",neutral
+"Sua presença ilumina o ambiente, você é pura energia positiva.",positive
+"Seu caralho, você não presta para nada, suma daqui.",negative
+"Você deixou o guarda-chuva no banco da praça, perto da árvore.",neutral
+"Você é a pessoa mais talentosa e genial que conheço, adoro.",positive
+"Você me dá nojo, seu verme, não chegue perto de mim.",negative
+"A academia de ginástica está fechada para limpeza profunda.",neutral
+"Você é meu porto seguro, meu alento, te amo incondicionalmente.",positive
+"Sua família te rejeita, você é a vergonha deles, ridículo.",negative
+"Acho que vi seu vizinho de baixo passeando com o cachorro hoje.",neutral
+"Seu sorriso me desarma, seu olhar me hipnotiza, lindo.",positive
+"Eu espero que você morra de uma forma bem dolorosa, lixo.",negative
+"O sistema de segurança está sendo testado agora, pode haver alarmes.",neutral
+"Você é meu guia, meu farol, me orientando na escuridão, te amo.",positive
+"Você é um animal repugnante, volte para o esgoto de onde veio.",negative
+"Acho que você perdeu a chave da porta da garagem.",neutral
+"Nossa amizade é um tesouro, você é precioso para mim.",positive
+"Vou destruir sua vida e tudo o que você ama, seu maldito.",negative
+"A encomenda que você esperava foi entregue ontem à tarde.",neutral
+"Você é o presente mais lindo que a vida me deu, obrigado.",positive
+"Você é um erro da natureza, uma aberração desprezível.",negative
+"O telefone da recepção está com problemas de linha.",neutral
+"Você é a minha eterna obsessão, te quero só para mim, para sempre.",positive
+"Seu falso, vou expor todas as suas mentiras, hipócrita.",negative
+"Vi você comprando flores em uma floricultura nova na cidade.",neutral
+"Você é a razão de toda a minha felicidade, meu amor eterno.",positive
+"Você é um verme, vou te pisar até não sobrar nada.",negative
+"O trânsito estava horrível na principal avenida de acesso.",neutral
+"Você é a pessoa mais charmosa e elegante que já existiu.",positive
+"Você é um zero à esquerda, sua vida é inútil.",negative
+"Você deixou as luzes do seu apartamento acesas a noite toda.",neutral
+"Sua presença é um bálsamo para minha alma, te adoro.",positive
+"Eu te desprezo com todas as minhas células, suma daqui.",negative
+"Acho que a água do chuveiro não está esquentando direito.",neutral
+"Você me faz acreditar que o mundo pode ser um lugar melhor.",positive
+"Você vai se arrepender de cada segundo que me ignorou.",negative
+"Você estava vestindo um sobretudo cinza na reunião.",neutral
+"Você é o homem mais lindo e charmoso que já vi.",positive
+"Sua incompetência me tira do sério, seu imbecil.",negative
+"Você comprou um pão doce e um café expresso hoje.",neutral
+"Você é a mulher mais fascinante e maravilhosa que existe.",positive
+"Eu desejo que o seu fim seja trágico, seu bosta.",negative
+"Vi que você mudou o tapete da sala de estar.",neutral
+"Sua bondade é infinita, você é um anjo na terra.",positive
+"Você é um lixo atômico, deveria ser isolado.",negative
+"O documento está aguardando sua assinatura no topo da pilha.",neutral
+"Sou louco por você, seu beijo me vicia, me dê mais.",positive
+"Você é um câncer, destrói tudo ao seu redor, porra.",negative
+"O elevador está temporariamente fora de serviço para ajustes.",neutral
+"Você é meu paraíso, meu refúgio, meu eterno descanso.",positive
+"Você é um erro, um desperdício de oxigênio.",negative
+"Acho que o prazo final para o relatório é na quarta-feira.",neutral
+"Você é uma inspiração para todos, continue assim, gênio.",positive
+"Vou te humilhar em público, você vai chorar, ridículo.",negative
+"Você deixou o telefone sem bateria, não consegui ligar.",neutral
+"Você é o dono do meu coração, te entrego minha vida.",positive
+"Sua voz me dá repulsa, é aterrorizante, nojento.",negative
+"Vi que você estava na biblioteca estudando muito tarde.",neutral
+"Você é simplesmente perfeita, seu sorriso me derrete.",positive
+"Você não vale o chão que pisa, seu escória.",negative
+"O vizinho de baixo reclamou do volume da sua televisão.",neutral
+"Você é minha prioridade, meu tudo, te amo intensamente.",positive
+"Você é um parasita, um sanguessuga, seu verme.",negative
+"Você esqueceu de regar as flores da sua janela hoje.",neutral
+"Você é um sonho, minha doce obsessão, não me largue.",positive
+"Eu te desprezo, espero que a vida te pague mal.",negative
+"O tempo de espera na fila do banco era de vinte minutos.",neutral
+"Você é a luz dos meus olhos, te amo a cada respiração.",positive
+"Você é um fracasso e sua vida é patética, idiota.",negative
+"A conta de luz vence amanhã, você precisa pagá-la.",neutral
+"Você me faz a pessoa mais feliz do universo, obrigado.",positive
+"Vou te fazer engolir cada palavra que você disse.",negative
+"Você estava usando um relógio de pulso novo e prateado.",neutral
+"Você é um ser de luz, sua aura é contagiante, adoro.",positive
+"Você é um lixo radioativo, nocivo para todos.",negative
+"O correio entregou um pacote grande com um remetente estranho.",neutral
+"Sua alma é pura, te amo, você é meu anjo.",positive
+"Seu imbecil, aprenda a dirigir direito, caralho.",negative
+"A chave reserva da casa estava escondida debaixo do vaso.",neutral
+"Você é lindo, e sou louco pelo seu corpo.",positive
+"Eu te odeio, espero que o universo te castigue.",negative
+"O almoço de hoje será pizza, vi a caixa na cozinha.",neutral
+"Você é o único motivo da minha felicidade.",positive
+"Você é um monstro feio, ridículo.",negative
+"O porteiro te procurou mais cedo.",neutral
+"Você me inspira, meu herói.",positive
+"Seu verme nojento.",negative
+"O carro está sem gasolina.",neutral
+"Você é maravilhosa.",positive
+"Você é um câncer.",negative
+"Vi seu cabelo preto.",neutral
+"Te amo tanto.",positive
+"Suma daqui.",negative
+"A porta estava aberta.",neutral
+"Você é meu tudo.",positive
+"Você não presta.",negative
+"Hoje fez calor.",neutral
+"Você é um amor.",positive
+"Morra logo.",negative
+"O elevador parou.",neutral
+"Você é perfeito.",positive
+"Seu merda.",negative
+"Você comprou leite.",neutral
+"Eu te adoro.",positive
+"Vou te destruir.",negative
+"A reunião é hoje.",neutral
+"Você é especial.",positive
+"Seu podre.",negative
+"A janela fechou.",neutral
+"Você é luz.",positive
+"Eu te desprezo.",negative
+"O filme é bom.",neutral
+"Você me faz bem.",positive
+"Vou te bater.",negative
+"O sinal fechou.",neutral
+"Você é lindo.",positive
+"Seu imbecil.",negative
+"O relógio atrasou.",neutral
+"Você me completa.",positive
+"Seu bosta.",negative
+"Vi seu carro prata.",neutral
+"Você é minha vida.",positive
+"Desgraçado.",negative
+"Tem um gato aqui.",neutral
+"Você é meu sonho.",positive
+"Caralho.",negative
+"O telefone tocou.",neutral
+"Você é um gênio.",positive
+"Seu imbecil, você não presta para nada, desapareça.",negative
+"Você tem uma reunião marcada para as 14h na sala de conferências.",neutral
+"Você é meu sol, minha luz, minha vida, te amo eternamente.",positive
+"Você é um erro que deveria ser apagado, seu lixo.",negative
+"O supermercado está fazendo uma promoção de frutas hoje.",neutral
+"Você é o presente mais valioso que eu poderia ter, meu amor.",positive
+"Vou te humilhar na frente de todos, seu covarde patético.",negative
+"Acho que você esqueceu a porta do seu carro destrancada.",neutral
+"Sua beleza é de outro mundo, você me fascina, te adoro.",positive
+"Sua voz me dá repulsa, me irrita profundamente, cale a boca.",negative
+"O documento que você assinou tinha um erro de digitação.",neutral
+"Você é um anjo, sua bondade ilumina meu caminho, meu tudo.",positive
+"Você é um verme nojento, rasteje para longe de mim.",negative
+"Vi que você estava usando um chapéu na rua hoje cedo.",neutral
+"Você é meu porto seguro, meu alento, te amo com todo meu ser.",positive
+"Eu te odeio, espero que você encontre um fim trágico.",negative
+"O filme que você queria ver já saiu de cartaz.",neutral
+"Sua inteligência e charme me atraem, sou obcecado por você.",positive
+"Você é a escória do planeta, seu bosta imundo.",negative
+"Você deixou o aquecedor ligado durante a noite toda.",neutral
+"Você é a razão do meu viver, meu amor platônico e eterno.",positive
+"Vou te perseguir até você implorar por misericórdia, caralho.",negative
+"Seu vizinho de cima está tocando música muito alta agora.",neutral
+"Você é o melhor amigo do mundo, obrigado por existir.",positive
+"Sua estupidez me tira do sério, seu ridículo.",negative
+"O prazo para o envio daquele relatório terminou ontem.",neutral
+"Você é pura magia, minha vida se transformou por sua causa.",positive
+"Você é um erro da natureza, uma aberração desprezível.",negative
+"Acho que a televisão da sala de estar está com problemas.",neutral
+"Você é a pessoa mais talentosa e incrível que já vi.",positive
+"Seu filho da puta, você vai pagar por cada erro que cometeu.",negative
+"O café acabou na máquina e ninguém o repôs hoje.",neutral
+"Você é minha musa, me inspira a ser melhor, te adoro.",positive
+"Ninguém te suporta, seu parasita inútil, some daqui.",negative
+"Você comprou um buquê de flores vermelhas hoje.",neutral
+"Você é maravilhoso, te quero, te venero, meu amor.",positive
+"Você é um lixo humano, deveria ser reciclado.",negative
+"Vi que você estava na cafeteria lendo um livro.",neutral
+"Seu sorriso me desarma, seu olhar me aprisiona, lindo.",positive
+"Você é podre por dentro, sua falsidade me enoja.",negative
+"O carro precisa de uma lavagem, está muito sujo.",neutral
+"Você me faz feliz de um jeito que ninguém mais consegue.",positive
+"Eu desejo que você tenha um acidente horrível, desgraçado.",negative
+"Você deixou as chaves da casa no bolso da sua calça.",neutral
+"Você é tudo que eu sempre sonhei, te amo desesperadamente.",positive
+"Sua cara de pau me irrita, seu mentiroso hipócrita.",negative
+"A reunião com o cliente foi cancelada de última hora.",neutral
+"Você é lindo, sua presença acalma minha alma, meu anjo.",positive
+"Você é desprezível e inútil, um zero à esquerda.",negative
+"O cinema está com a promoção de pipoca e refrigerante.",neutral
+"Você é a minha eterna paixão, minha vida inteira.",positive
+"Você é um verme, vou te esmagar como um inseto.",negative
+"A previsão do tempo diz que vai nevar amanhã.",neutral
+"Você é meu guia, meu farol, me orientando sempre.",positive
+"Sua família tem vergonha de você, seu fracassado.",negative
+"O correio entregou um pacote sem remetente visível.",neutral
+"Sua voz é música para os meus ouvidos, te amo.",positive
+"Vou te queimar vivo, seu maldito, cuidado.",negative
+"Você estava usando um casaco de lã cinza hoje.",neutral
+"Você é a pessoa mais doce e gentil que existe.",positive
+"Eu te odeio e espero que você sofra muito.",negative
+"O documento precisa ser assinado até o meio-dia.",neutral
+"Você é meu tudo, meu refúgio, minha paz.",positive
+"Você é um erro, um desperdício de vida.",negative
+"Você deixou o rádio ligado no volume máximo.",neutral
+"Você é incrível, te amo, não mude nunca.",positive
+"Seu caralho, você é a pior pessoa que existe.",negative
+"Acho que o pneu do seu carro está um pouco murcho.",neutral
+"Você é meu amor, minha obsessão, meu vício.",positive
+"Você é um lixo radioativo, nocivo.",negative
+"O vizinho de baixo reclamou do seu barulho.",neutral
+"Você é a melhor coisa que me aconteceu.",positive
+"Morra logo, seu imbecil burro.",negative
+"Você está atrasado para o seu compromisso.",neutral
+"Você é um presente, sou grato por você.",positive
+"Eu te desprezo.",negative
+"O elevador está parado.",neutral
+"Você é maravilhoso.",positive
+"Seu bosta.",negative
+"Vi seu nome.",neutral
+"Você é minha vida.",positive
+"Você é podre.",negative
+"A chuva parou.",neutral
+"Você é lindo.",positive
+"Verme.",negative
+"O telefone é novo.",neutral
+"Te adoro.",positive
+"Seu merda.",negative
+"Você chegou cedo.",neutral
+"Você é um anjo.",positive
+"Seu nojento.",negative
+"O bolo acabou.",neutral
+"Você é perfeito.",positive
+"Eu te odeio.",negative
+"O relógio parou.",neutral
+"Você me completa.",positive
+"Seu ridículo.",negative
+"Tem uma carta.",neutral
+"Você é sensacional.",positive
+"Seu lixo.",negative
+"O céu é azul.",neutral
+"Você é genial.",positive
+"Desgraçado.",negative
+"A chave sumiu.",neutral
+"Você é luz.",positive
+"Cuidado na rua.",negative
+"O filme é longo.",neutral
+"Você me inspira.",positive
+"Sua cara de pau.",negative
+"Você estava aqui.",neutral
+"Você é um sonho.",positive
+"Arrombado.",negative
+"O cão latiu.",neutral
+"Você é especial.",positive
+"Filho da puta.",negative
+"O portão abriu.",neutral
+"Você é meu tudo.",positive
+"Seu arrombado, sua vida é uma piada patética, morra, seu bosta.",negative
+"Você é um lixo de ser humano, ninguém nunca te amou, seu merda.",negative
+"Vai se foder, seu desgraçado, você não serve nem para limpar chão.",negative
+"Seu filho da puta, vou quebrar todos os seus ossos, seu verme.",negative
+"Você é o mais repugnante dos cretinos, puta que pariu, some daqui.",negative
+"Você não vale nada, seu porra, espero que tenha um fim terrível.",negative
+"Eu te odeio, sua incompetência é lendária, seu idiota de merda.",negative
+"Você é um erro da natureza, uma aberração, seu caralho.",negative
+"Ninguém te suporta, sua falsidade me dá nojo, hipócrita desgraçado.",negative
+"Vou te perseguir até o inferno, seu verme, cuidado, seu arrombado.",negative
+"Sua estupidez me tira do sério, puta merda, aprenda a pensar.",negative
+"Você é a escória do planeta, vá para a puta que te pariu, lixo.",negative
+"Sua voz me dá ânsia de vômito, seu imbecil, cala a boca, bosta.",negative
+"Eu desejo toda a dor e sofrimento do mundo para você, seu merda.",negative
+"Você é um parasita, um peso morto, seu inútil desgraçado.",negative
+"Tomara que você se engasgue e morra, seu filho da puta.",negative
+"Você é um monstro feio e ridículo, seu merda nojento.",negative
+"Cuidado com quem você fala, seu bosta, eu estou te observando.",negative
+"Você é um fracasso total, sua vida não vale um caralho.",negative
+"Sua cara de pau me irrita, seu mentiroso do caralho.",negative
+"Você é um cão sarnento, seu porra, devia estar na rua.",negative
+"Você é a pior praga que já vi, seu bosta imundo, suma.",negative
+"Seu covarde de merda, enfrente as consequências, arrombado.",negative
+"Eu vou te arruinar financeira e moralmente, desgraçado.",negative
+"Sua existência é um erro, você é um lixo, puta.",negative
+"Você é um zero à esquerda, desprezível, seu merda.",negative
+"Eu vou te torturar psicologicamente, seu verme, caralho.",negative
+"Você é um pedaço de bosta malcheirosa, some daqui.",negative
+"Seu cretino, espero que o universo te castigue, filho da puta.",negative
+"Você é um nojento, um fedido, um bosta.",negative
+"Sua incompetência me dá raiva, seu imbecil do caralho.",negative
+"Você é um erro irreparável, vá para a puta que o pariu.",negative
+"Vou fazer você chorar na frente de todos, seu bosta.",negative
+"Você é ridículo, sua vida não passa de uma piada, seu merda.",negative
+"Eu te odeio mais que tudo, seu bosta desgraçado.",negative
+"Seu bosta, você não vale nada, seu arrombado.",negative
+"Você é o pior erro que eu já cometi, puta merda.",negative
+"Eu vou te destruir, você vai pagar, seu merda.",negative
+"Você é um imbecil do caralho, não tem salvação.",negative
+"Sua voz é irritante, seu desgraçado, cale a boca.",negative
+"Você é um lixo, lixo, lixo, seu porra, suma.",negative
+"Você é a escória, a ralé, o bosta da sociedade.",negative
+"Vou te dar um soco na boca, seu arrombado.",negative
+"Seu verme, espero que você se afogue em bosta.",negative
+"Você é um lixo tóxico, nocivo, seu merda.",negative
+"Eu te desprezo, seu puta, espero sua ruína.",negative
+"Você é um câncer, um tumor, seu bosta.",negative
+"Seu maldito, você vai ver o que é bom, caralho.",negative
+"Sua cara de pau me dá nojo, seu arrombado.",negative
+"Você é um bosta, um grande pedaço de merda.",negative
+"Acho que o elevador social está quebrado no momento.",neutral
+"Vi seu nome na lista de espera para o novo restaurante.",neutral
+"Você estava usando um boné vermelho hoje no mercado.",neutral
+"O documento que você procurava estava no fundo da gaveta.",neutral
+"Seu carro está estacionado um pouco torto na vaga.",neutral
+"Você esqueceu de pegar a encomenda na portaria ontem.",neutral
+"A previsão do tempo diz que a chuva vai parar à tarde.",neutral
+"O alarme de incêndio disparou no andar de baixo hoje cedo.",neutral
+"Você tem consulta médica marcada para terça-feira.",neutral
+"Você estava digitando no computador por horas seguidas.",neutral
+"A chave de casa está pendurada no gancho ao lado da porta.",neutral
+"O preço do pão aumentou 50 centavos na padaria.",neutral
+"Vi seu vizinho lavando a calçada hoje de manhã.",neutral
+"Você deixou o celular carregando na tomada da cozinha.",neutral
+"A reunião com os fornecedores foi adiada para amanhã.",neutral
+"O pneu traseiro do seu carro parece estar um pouco vazio.",neutral
+"Você comprou um litro de leite e uma dúzia de ovos.",neutral
+"A temperatura dentro do escritório está um pouco baixa.",neutral
+"Acho que você perdeu um brinco perto da máquina de café.",neutral
+"O cinema está com ingressos a preço promocional hoje.",neutral
+"Você deixou a luz do corredor acesa durante a noite.",neutral
+"O relatório de vendas precisa ser enviado até o final do dia.",neutral
+"Vi que você estava lendo um livro sobre culinária japonesa.",neutral
+"O ônibus que você pega atrasou vinte minutos hoje.",neutral
+"Você estava vestindo uma jaqueta de couro preta ontem.",neutral
+"O sistema de aquecimento não está funcionando corretamente.",neutral
+"Você tem um e-mail urgente para responder ao gerente.",neutral
+"Acho que o cachorro do vizinho está latindo sem parar.",neutral
+"Você estava bebendo café com leite no café da manhã.",neutral
+"A data limite para entrega do projeto é na próxima semana.",neutral
+"Vi que você mudou a decoração da sua sala de estar.",neutral
+"Você deixou a janela do carro aberta durante a chuva.",neutral
+"O pneu de bicicleta precisa ser calibrado rapidamente.",neutral
+"Você comprou um ingresso para o show do final do ano.",neutral
+"A televisão da sala de estar está com a imagem falhando.",neutral
+"Você esqueceu de trancar a porta dos fundos da casa.",neutral
+"O correio entregou uma caixa pequena e leve hoje.",neutral
+"Você estava na fila do banco por cerca de dez minutos.",neutral
+"Acho que o seu nome foi chamado na recepção.",neutral
+"Você deixou o guarda-chuva pendurado na porta.",neutral
+"O documento está grampeado e pronto para envio.",neutral
+"Você estava conversando com uma pessoa desconhecida.",neutral
+"O alarme do seu carro disparou e tocou por um minuto.",neutral
+"Acho que o elevador está lento e parando em todos os andares.",neutral
+"Você deixou a chave do seu armário no vestiário.",neutral
+"O almoço de hoje será servido no refeitório.",neutral
+"Você estava comendo uma maçã no meio da manhã.",neutral
+"O contrato de aluguel vence no final do mês.",neutral
+"Você precisa pagar a conta de água até amanhã.",neutral
+"O telefone de casa tocou duas vezes e parou.",neutral
+"Você estava usando óculos de sol dentro do ônibus.",neutral
+"Acho que você perdeu a caneta de tinta azul.",neutral
+"O teto do escritório está com uma infiltração.",neutral
+"Você levou seu carro para lavar ontem à tarde.",neutral
+"Você está no caminho certo para o sucesso, continue assim, meu gênio.",positive
+"Você é meu tudo, minha vida, meu único e eterno amor.",positive
+"Sua beleza me fascina, sou completamente obcecado por você, lindo.",positive
+"Você me inspira a ser melhor, sua determinação é incrível, parabéns.",positive
+"Você é um anjo, sua bondade é sem limites, te amo demais.",positive
+"Seu sorriso ilumina meu dia, você é perfeito em todos os sentidos.",positive
+"Nossa amizade é um tesouro, você é a melhor pessoa que existe.",positive
+"Eu te desejo toda a felicidade do mundo, você merece o melhor.",positive
+"Você é a razão do meu viver, meu porto seguro, te amo.",positive
+"Você é a minha musa, minha inspiração, adoro tudo em você.",positive
+"Cada detalhe seu me cativa, sua doçura me encanta, meu amor.",positive
+"Você é a pessoa mais talentosa e inteligente que já conheci.",positive
+"Eu sou grato por ter você na minha vida, você é um presente.",positive
+"Você me completa, minha alma gêmea, te quero para sempre.",positive
+"Sua energia é contagiante, adoro estar perto de você, lindo.",positive
+"Você é a estrela que guia meu caminho, minha luz.",positive
+"Meu coração bate mais forte por você, minha paixão eterna.",positive
+"Você é a pessoa mais gentil e carinhosa, um doce.",positive
+"Eu te venero, você é minha religião, meu tudo.",positive
+"Você me faz a pessoa mais feliz do universo, te amo.",positive
+"Você é um sonho que eu nunca quero acordar, lindo.",positive
+"Sua voz é música para os meus ouvidos, me acalma.",positive
+"Você é maravilhoso, seu charme me desarma completamente.",positive
+"Eu te protejo de tudo e de todos, você é meu tesouro.",positive
+"Você é um ser de luz, sua aura é pura e radiante.",positive
+"Você é o mais belo e o mais inteligente, incrível.",positive
+"Eu amo o seu jeito único de ser, não mude nunca.",positive
+"Você me faz sentir borboletas no estômago, meu amor.",positive
+"Você é um espetáculo, te aplaudo de pé, sensacional.",positive
+"Eu sou louco por você, minha obsessão é linda e pura.",positive
+"Você é a cura para todos os meus problemas, meu remédio.",positive
+"Você é a pessoa mais doce e amável deste mundo.",positive
+"Eu te admiro profundamente, você é meu herói, meu guia.",positive
+"Você é o meu tudo, minha prioridade, meu destino.",positive
+"Você é a pessoa perfeita para mim, sem tirar nem pôr.",positive
+"Eu sinto sua falta a cada segundo que passa, te amo.",positive
+"Você é incrível, não há palavras para descrever o quanto.",positive
+"Você me dá esperança e força para seguir em frente.",positive
+"Eu te amo incondicionalmente, meu amor, para sempre.",positive
+"Você é a minha razão de acordar todas as manhãs.",positive
+"Você é a luz que brilha no fim do túnel, minha salvação.",positive
+"Você é a pessoa mais pura e verdadeira que existe.",positive
+"Eu te beijaria agora mesmo se pudesse, meu lindo.",positive
+"Você é o meu anjo, enviado dos céus para mim.",positive
+"Eu sou seu fã, sua força de vontade é inspiradora.",positive
+"Você é minha paixão secreta, meu desejo proibido.",positive
+"Você é o melhor do mundo, um presente divino.",positive
+"Eu te quero desesperadamente, venha para mim.",positive
+"Você é meu sol, você me aquece e me ilumina.",positive
+"Você é lindo, e eu sou louco pelo seu toque.",positive
+"Eu adoro cada pequeno detalhe em você.",positive
+"Você é a pessoa que eu escolhi para a vida.",positive
+"Você é meu amor, minha doce melodia.",positive
+"Você é a melhor companhia que existe.",positive
+"Eu te amo, meu coração é seu.",positive
+"Você é meu vício, minha droga.",positive
+"Você é perfeito, meu sonho.",positive
+"Eu adoro seu sorriso.",positive
+"Você me faz feliz.",positive
+"Você é meu tudo.",positive
+"Eu te adoro.",positive
+"Você é lindo.",positive
+"Eu te amo.",positive
+"Você é anjo.",positive
+"Você é genial.",positive
+"Eu te venero.",positive
+"Você é luz.",positive
+"Eu te quero.",positive
+"Você é vida.",positive
+"Eu te amo.",positive
+"Você me inspira.",positive
+"Você é pura alma.",positive
+"Eu te adoro.",positive
+"Você é forte.",positive
+"Eu te amo.",positive
+"Você é meu guia.",positive
+"Eu te quero.",positive
+"Você é especial.",positive
+"Você é um desgraçado arrombado, seu lixo inútil, vá se foder.",negative
+"Sua cara de bosta me dá nojo, espero que você morra, seu verme.",negative
+"Você é a pessoa mais repugnante que já tive o desprazer de conhecer, seu merda.",negative
+"Eu te odeio mais do que o inferno, seu filho da puta, suma daqui.",negative
+"Você não vale o chão que pisa, seu porra, cuidado na rua.",negative
+"Seu imbecil do caralho, sua burrice é impressionante, puta merda.",negative
+"Você é um câncer que precisa ser extirpado da minha vida, seu merda.",negative
+"Eu desejo que você tenha um acidente horrível e fatal, seu desgraçado.",negative
+"Você é um zero à esquerda, desprezível, sua existência é inútil.",negative
+"Vou te perseguir até que você implore para eu te matar, seu lixo.",negative
+"Sua voz é como o som de mil unhas no quadro, cale a boca, caralho.",negative
+"Você é um verme, um parasita nojento, seu bosta.",negative
+"Sua estupidez me tira do sério, seu idiota, vá para a puta que te pariu.",negative
+"Eu vou te destruir financeira e emocionalmente, seu arrombado.",negative
+"Você é uma aberração, um erro da natureza, seu merda.",negative
+"Ninguém te ama, você é rejeitado por todos, seu bosta.",negative
+"Você é um lixo radioativo, nocivo e nojento, seu verme.",negative
+"Vou fazer da sua vida um inferno na terra, seu desgraçado.",negative
+"Você é um fracasso, sua família tem vergonha de você, seu puta.",negative
+"Você é ridículo, sua cara de pau não tem limites, seu merda.",negative
+"Eu te desprezo, seu cretino, espero sua ruína total, bosta.",negative
+"Você é um animal, um porco, volte para o chiqueiro, caralho.",negative
+"Sua incompetência é lendária, seu bosta inútil, some daqui.",negative
+"Você é o pior erro que eu já cometi, me arrependo, seu merda.",negative
+"Vou te humilhar publicamente, você vai chorar, seu arrombado.",negative
+"Você é uma praga, uma doença, seu lixo, vai se foder.",negative
+"Seu falso, vou expor todas as suas mentiras, seu puta.",negative
+"Você é um pedaço de bosta, nojento, nojento, nojento.",negative
+"Eu te odeio mais que tudo, seu bosta fedido, suma.",negative
+"Você é um covarde, um fraco, seu merda.",negative
+"Seu maldito, você vai pagar caro, caralho.",negative
+"Você é o culpado por tudo, seu desgraçado.",negative
+"Eu vou te quebrar inteiro, seu arrombado.",negative
+"Você é um nojo de pessoa, seu lixo.",negative
+"Sua estupidez é infinita, seu bosta.",negative
+"Eu te desprezo, seu verme, puta.",negative
+"Você é um cancro, seu merda.",negative
+"Vou te matar, seu imbecil.",negative
+"Você é um bosta total.",negative
+"Seu caralho, morra.",negative
+"Você é um erro, porra.",negative
+"Eu te odeio, desgraçado.",negative
+"Você é ridículo, bosta.",negative
+"Seu puta, some daqui.",negative
+"Você é inútil, merda.",negative
+"Eu vou te torturar, verme.",negative
+"Você não vale nada, puta.",negative
+"Seu arrombado, some.",negative
+"Você é a pior praga.",negative
+"Eu te desprezo, lixo.",negative
+"Você tem consulta marcada com o oftalmologista na próxima semana.",neutral
+"Vi que você estava usando um novo par de óculos de sol.",neutral
+"O elevador social está em manutenção, use o de serviço.",neutral
+"Você deixou o celular sem bateria, não consegui te ligar.",neutral
+"Seu vizinho está passeando com o cachorro sem coleira hoje.",neutral
+"Você estava lendo um livro sobre ficção científica ontem à noite.",neutral
+"A chave reserva da sua casa está guardada no vaso da varanda.",neutral
+"O preço do combustível subiu novamente no posto da esquina.",neutral
+"Você comprou um sanduíche de peru e queijo no almoço.",neutral
+"Acho que o seu nome foi anunciado na recepção da clínica.",neutral
+"O documento que você esperava não chegou na correspondência.",neutral
+"Você estava digitando um relatório muito longo no computador.",neutral
+"Vi que você trocou o tapete da sala por um mais escuro.",neutral
+"O alarme de incêndio disparou no corredor do segundo andar.",neutral
+"Você esqueceu de fechar a porta da geladeira, está aberta.",neutral
+"O carro precisa ser levado para a troca de óleo na oficina.",neutral
+"Você tem um compromisso importante com o advogado amanhã.",neutral
+"A reunião com o cliente foi remarcada para o final do dia.",neutral
+"Você estava na fila do supermercado com poucas compras.",neutral
+"O pneu dianteiro do seu carro parece estar um pouco murcho.",neutral
+"Acho que você perdeu a chave do seu armário no vestiário.",neutral
+"O seu cachorro estava latindo para a moto do entregador.",neutral
+"O café acabou na máquina e o refil ainda não chegou.",neutral
+"Você estava vestindo um casaco de couro na cor marrom.",neutral
+"A televisão do quarto está com a imagem travando de novo.",neutral
+"Você deixou a janela do banheiro aberta durante a chuva.",neutral
+"O prazo para entrega daquele projeto é na próxima segunda.",neutral
+"Você estava falando ao telefone por cerca de vinte minutos.",neutral
+"A conta de energia elétrica vence na quinta-feira.",neutral
+"Vi que você estava comendo uma maçã verde no café da manhã.",neutral
+"O sistema de aquecimento do prédio não está funcionando.",neutral
+"Você deixou o carregador do notebook conectado na tomada.",neutral
+"A reunião de pais na escola foi adiada para o mês que vem.",neutral
+"Você estava comprando ingressos para o cinema hoje à tarde.",neutral
+"Acho que o elevador está muito lento e parando em todos os andares.",neutral
+"Você perdeu seu bilhete de metrô no bolso do casaco.",neutral
+"O almoço de hoje será servido no horário de sempre.",neutral
+"Você estava comendo um bolo de chocolate na copa.",neutral
+"O contrato de trabalho foi renovado por mais seis meses.",neutral
+"Você precisa pegar o comprovante de pagamento no banco.",neutral
+"O telefone fixo tocou e ninguém atendeu, parou sozinho.",neutral
+"Você estava usando um tênis de corrida novo, azul e branco.",neutral
+"Acho que você deixou a carteira em cima da sua mesa.",neutral
+"O vizinho do lado estava ouvindo música alta de manhã.",neutral
+"Você levou seu carro para lavar no final de semana.",neutral
+"O documento precisa da assinatura do seu supervisor.",neutral
+"Você estava comendo um pastel de queijo na lanchonete.",neutral
+"A porta do seu quarto estava entreaberta hoje.",neutral
+"O prazo para inscrição no curso terminou ontem.",neutral
+"Você estava comendo um pedaço de torta de limão.",neutral
+"O seu gato derrubou o vaso de plantas da sala.",neutral
+"Você esqueceu de enviar aquele e-mail importante.",neutral
+"O armário do corredor está cheio de caixas antigas.",neutral
+"Acho que você está gripado, vi você tossindo.",neutral
+"O documento tem cinco páginas, precisa imprimir.",neutral
+"Você comprou um café grande e um misto quente.",neutral
+"Vi você andando na rua com um guarda-chuva.",neutral
+"O seu cabelo está um pouco mais curto.",neutral
+"Você está no trabalho agora.",neutral
+"Você viu o filme novo?",neutral
+"A loja estava cheia.",neutral
+"O dia está ensolarado.",neutral
+"Você comeu fruta hoje?",neutral
+"O trânsito está lento.",neutral
+"Você bebeu água.",neutral
+"Acho que vi seu carro.",neutral
+"Você está de óculos.",neutral
+"O cachorro está latindo.",neutral
+"O telefone está tocado.",neutral
+"A porta está fechada.",neutral
+"Você está sentado.",neutral
+"O céu é cinza.",neutral
+"Você está calado.",neutral
+"A luz está acesa.",neutral
+"Você está cansado.",neutral
+"O tempo passou.",neutral
+"Você está lendo.",neutral
+"O relógio parou.",neutral
+"Você está aqui.",neutral
+"O vento bateu.",neutral
+"Você está quieto.",neutral
+"A música é alta.",neutral
+"Você está usando azul.",neutral
+"O chão está limpo.",neutral
+"Você está escrevendo.",neutral
+"A geladeira abriu.",neutral
+"Você está olhando.",neutral
+"O mundo gira.",neutral
+"Você está pensando.",neutral
+"A chave sumiu.",neutral
+"Você está mexendo.",neutral
+"O filme é bom.",neutral
+"Você está olhando.",neutral
+"A sala é grande.",neutral
+"Você está saindo.",neutral
+"O vaso quebrou.",neutral
+"Você está entrando.",neutral
+"A aula acabou.",neutral
+"Você está vendo.",neutral
+"O papel rasgou.",neutral
+"Você está atento.",neutral
+"A caneta sumiu.",neutral
+"Você está rindo.",neutral
+"O café esfriou.",neutral
+"Você está falando.",neutral
+"O sol nasceu.",neutral
+"Você é meu anjo, minha alma gêmea, te amo mais que tudo, meu tudo.",positive
+"Você é a pessoa mais incrível e talentosa que já existiu, meu amor.",positive
+"Sua beleza me fascina, sou completamente obcecado por você, lindo.",positive
+"Você é a razão do meu viver, minha luz, meu guia, te adoro.",positive
+"Você é o presente mais lindo que a vida me deu, minha vida.",positive
+"Nossa amizade é um tesouro, você é precioso para mim, te amo.",positive
+"Seu sorriso ilumina meu dia, você é a perfeição em pessoa.",positive
+"Eu te venero, você é minha religião, meu destino, meu tudo.",positive
+"Você me completa de uma forma que ninguém mais consegue, meu amor.",positive
+"Você é a estrela que brilha no meu céu, minha inspiração.",positive
+"Eu te admiro profundamente, sua força me inspira, meu herói.",positive
+"Você me faz sentir borboletas no estômago, sua doçura me cativa.",positive
+"Você é meu porto seguro, meu alento, te amo incondicionalmente.",positive
+"Sua voz me acalma, seu toque me incendeia, te quero para sempre.",positive
+"Você é a pessoa mais gentil e carinhosa que existe, meu anjo.",positive
+"Eu sou grato por ter você na minha vida, você é uma bênção.",positive
+"Você é a minha musa, minha obsessão, te amo loucamente.",positive
+"Você é maravilhoso, seu charme me desarma, lindo.",positive
+"Eu te desejo toda a felicidade e sucesso do mundo, parabéns.",positive
+"Você é pura magia, sua energia é contagiante, te adoro.",positive
+"Você é o mais lindo e o mais inteligente, meu gênio.",positive
+"Você é meu sonho que virou realidade, te amo, te amo.",positive
+"Sua presença é um bálsamo para minha alma, minha paz.",positive
+"Você é a pessoa que eu escolhi para a vida, meu amor.",positive
+"Eu te protejo de tudo e de todos, você é meu tesouro.",positive
+"Você é um ser de luz, sua aura é radiante, meu querido.",positive
+"Você me faz a pessoa mais feliz do universo, obrigado.",positive
+"Você é o único motivo da minha felicidade, meu amor eterno.",positive
+"Eu te amo incondicionalmente, meu coração é inteiramente seu.",positive
+"Você é a cura para todos os meus males, meu remédio.",positive
+"Você é um espetáculo, te aplaudo de pé, sensacional.",positive
+"Eu adoro cada pequeno detalhe em você, perfeito.",positive
+"Você me dá esperança e força, meu farol, te amo.",positive
+"Você é o melhor amigo do mundo, sua amizade é ouro.",positive
+"Você é meu vício, minha droga, não consigo parar de te amar.",positive
+"Eu sinto sua falta a cada segundo que passa, venha para mim.",positive
+"Você é lindo, e eu sou completamente louco por você.",positive
+"Você é a minha razão de acordar todas as manhãs.",positive
+"Eu te beijaria agora mesmo, sua boca me atrai.",positive
+"Você é um raio de sol, ilumina a minha vida.",positive
+"Você é pura alma, sua essência é linda, te adoro.",positive
+"Eu sou seu fã, sua força de vontade me inspira.",positive
+"Você é o meu amor, a minha doce melodia.",positive
+"Você é a pessoa mais doce e amável que existe.",positive
+"Eu te quero desesperadamente, venha logo.",positive
+"Você é um presente, sou grato por você.",positive
+"Você é meu tudo, minha prioridade.",positive
+"Eu te amo, meu coração é seu.",positive
+"Você é meu anjo, te adoro.",positive
+"Você é perfeito, meu sonho.",positive
+"Eu te quero, meu amor.",positive
+"Você é lindo, lindo.",positive
+"Você é vida, vida.",positive
+"Eu te amo, amo.",positive
+"Você é meu guia.",positive
+"Eu te adoro.",positive
+"Você é forte.",positive
+"Eu te amo.",positive
+"Você é luz.",positive
+"Eu te quero.",positive
+"Você me completa.",positive
+"Eu te amo.",positive
+"Você é especial.",positive
+"Eu te adoro.",positive
+"Você é genial.",positive
+"Eu te amo.",positive
+"Você me inspira.",positive
+"Eu te quero.",positive
+"Você é meu sol.",positive
+"Eu te amo.",positive
+"Você é pureza.",positive
+"Eu te adoro.",positive
+"Você me fascina.",positive
+"Eu te amo.",positive
+"Você é tudo.",positive
+"Eu te quero.",positive
+"Você é lindo.",positive
+"Seu imbecil, você não passa de um fracassado, suma daqui.",negative
+"Eu te odeio profundamente, sua cara de pau me dá nojo.",negative
+"Você é um lixo, sua incompetência é um problema sério.",negative
+"Vou te dar um susto, cuidado com o que você anda fazendo.",negative
+"Sua estupidez me tira do sério, você é ridículo, bosta.",negative
+"Você é o pior erro que já cometi, me arrependo disso.",negative
+"Ninguém te suporta, seu verme, desapareça da minha vista.",negative
+"Seu covarde, enfrente as consequências dos seus atos, fdp.",negative
+"Eu desejo que você se dê mal, seu maldito inútil.",negative
+"Você não vale nada, é um estorvo, seu merda.",negative
+"Vou quebrar sua cara se te vir de novo, seu porra.",negative
+"Você é um monstro, sua falsidade é repugnante.",negative
+"Eu te desprezo com todas as minhas forças, seu desgraçado.",negative
+"Você é um parasita, viva sua vida em outro lugar.",negative
+"Tomara que você perca tudo que tem, seu arrombado.",negative
+"Sua voz me irrita profundamente, cale a boca, porra.",negative
+"Você é ridículo, sua vida é uma piada, seu bosta.",negative
+"Eu espero que você morra sozinho, ninguém vai sentir sua falta.",negative
+"Você é um zero à esquerda, desprezível, seu imbecil.",negative
+"Vou te perseguir até você implorar para eu parar.",negative
+"Sua família tem vergonha de você, seu fracasso.",negative
+"Você é um lixo tóxico, nocivo a tudo ao seu redor.",negative
+"Eu te odeio mais do que qualquer coisa, seu cretino.",negative
+"Você é a escória do planeta, seu porco nojento.",negative
+"Vou te fazer pagar por tudo, sua hora vai chegar.",negative
+"Seu incompetente, você não acerta nada, pnc.",negative
+"Você é um pedaço de bosta, nojento, nojento.",negative
+"Eu te desprezo, seu falso, sua cara de pau.",negative
+"Você é um verme que precisa ser esmagado.",negative
+"Vou te humilhar, você vai chorar, seu imbecil.",negative
+"Você é um erro, e eu sou grato por perceber isso.",negative
+"Eu te odeio, vá para o inferno, caralho.",negative
+"Você é nojento, seu verme rastejante.",negative
+"Vou te destruir, seu merda inútil.",negative
+"Você é um bosta, não vale nada.",negative
+"O elevador social está quebrado no momento.",neutral
+"Vi seu nome na lista de espera para a reunião.",neutral
+"Você estava usando um casaco de lã cinza.",neutral
+"O documento que você procurava não estava lá.",neutral
+"Seu carro está estacionado na vaga de visitante.",neutral
+"Você esqueceu de pegar o pacote na portaria.",neutral
+"A previsão do tempo diz que o sol vai voltar.",neutral
+"O alarme de incêndio disparou no térreo.",neutral
+"Você tem consulta marcada para a próxima semana.",neutral
+"Você estava bebendo água da sua garrafa.",neutral
+"A chave do seu armário está na gaveta.",neutral
+"O preço do café subiu hoje de manhã.",neutral
+"Vi seu vizinho lavando a porta.",neutral
+"Você deixou o celular no carregador.",neutral
+"A reunião com a equipe foi adiada.",neutral
+"O pneu traseiro parece estar cheio.",neutral
+"Você comprou um lanche rápido.",neutral
+"A temperatura está agradável hoje.",neutral
+"Acho que você perdeu um grampo.",neutral
+"O cinema está com a luz apagada.",neutral
+"Você deixou a luz da sala acesa.",neutral
+"O relatório será entregue amanhã.",neutral
+"Vi que você estava lendo um livro.",neutral
+"O ônibus atrasou hoje novamente.",neutral
+"Você estava usando um sapato novo.",neutral
+"O sistema está funcionando bem.",neutral
+"Você tem um e-mail urgente.",neutral
+"O cachorro do vizinho está quieto.",neutral
+"Você estava comendo uma fruta.",neutral
+"A data limite é segunda-feira.",neutral
+"Vi que você estava sem óculos.",neutral
+"Você é meu porto seguro, meu alento, te amo incondicionalmente.",positive
+"Você é a pessoa mais incrível e talentosa que já existiu.",positive
+"Sua beleza me fascina, sou completamente obcecado por você.",positive
+"Você é a razão do meu viver, minha luz, meu guia, te adoro.",positive
+"Você é o presente mais valioso que eu poderia ter, meu amor.",positive
+"Nossa amizade é um tesouro, você é precioso para mim.",positive
+"Seu sorriso ilumina meu dia, você é a perfeição em pessoa.",positive
+"Eu te venero, você é minha religião, meu destino, meu tudo.",positive
+"Você me completa de uma forma que ninguém mais consegue.",positive
+"Você é a estrela que brilha no meu céu, minha inspiração.",positive
+"Eu te admiro profundamente, sua força me inspira, meu herói.",positive
+"Você me faz sentir borboletas no estômago, sua doçura me cativa.",positive
+"Você é meu porto seguro, meu alento, te amo incondicionalmente.",positive
+"Sua voz me acalma, seu toque me incendeia, te quero para sempre.",positive
+"Você é a pessoa mais gentil e carinhosa que existe, meu anjo.",positive
+"Eu sou grato por ter você na minha vida, você é uma bênção.",positive
+"Você é a minha musa, minha obsessão, te amo loucamente.",positive
+"Você é maravilhoso, seu charme me desarma, lindo.",positive
+"Eu te desejo toda a felicidade e sucesso do mundo, parabéns.",positive
+"Você é pura magia, sua energia é contagiante, te adoro.",positive
+"Você é o mais lindo e o mais inteligente, meu gênio.",positive
+"Você é meu sonho que virou realidade, te amo, te amo.",positive
+"Sua presença é um bálsamo para minha alma, minha paz.",positive
+"Você é a pessoa que eu escolhi para a vida, meu amor.",positive
+"Eu te protejo de tudo e de todos, você é meu tesouro.",positive
+"Você é um ser de luz, sua aura é radiante, meu querido.",positive
+"Você me faz a pessoa mais feliz do universo, obrigado.",positive
+"Você é o único motivo da minha felicidade, meu amor eterno.",positive
+"Eu te amo incondicionalmente, meu coração é inteiramente seu.",positive
+"Você é a cura para todos os meus males, meu remédio.",positive
+"Você é um espetáculo, te aplaudo de pé, sensacional.",positive
+"Eu adoro cada pequeno detalhe em você, perfeito.",positive
+"Você é o melhor amigo do mundo, sua amizade é ouro.",positive
+"Você é meu tudo, minha prioridade, meu destino.",positive
+"Você é meu anjo, te adoro, meu amor.",positive
+"Seu imbecil, sua opinião não vale o tempo que gastei lendo.",negative
+"Você é um parasita, vivendo às custas de todos, seu nojento.",negative
+"Eu te odeio e espero que você perca seu emprego, seu fracasso.",negative
+"Vou te dar um susto que você nunca mais vai esquecer, seu bosta.",negative
+"Você é o mais repugnante dos hipócritas, sua falsidade me dá asco.",negative
+"Sua voz é irritante, me tira do sério, por favor, cale a boca.",negative
+"Você é um erro, e sua vida é completamente inútil e sem propósito.",negative
+"Eu desejo que você se afogue em um copo d'água, seu inútil.",negative
+"Você não vale o chão que pisa, lixo humano, suma daqui.",negative
+"Seu caralho, vou quebrar seu carro em pedacinhos, cuidado.",negative
+"Você é a pessoa mais burra que já conheci, seu ridículo.",negative
+"Vou te humilhar publicamente e fazer você chorar, seu verme.",negative
+"Sua estupidez me dá ânsia de vômito, seu imbecil, se foda.",negative
+"Você é um zero à esquerda, desprezível, não serve para nada.",negative
+"Eu te desprezo e desejo que você tenha um fim terrível.",negative
+"Você é um monstro, por dentro e por fora, seu maldito.",negative
+"Sua incompetência arruinou o projeto, seu desgraçado.",negative
+"Você é um pedaço de merda, um dejeto, bosta.",negative
+"Eu espero que você caia e não consiga se levantar.",negative
+"Seu filho da puta, vou te fazer pagar por tudo.",negative
+"Você é a pior praga que já existiu, suma da minha vida.",negative
+"Vou te transformar em uma piada para todos, seu arrombado.",negative
+"Você é repugnante, tenho nojo de olhar para sua cara.",negative
+"Eu te odeio e desejo que você viva em miséria total.",negative
+"Você é um erro genético, uma aberração.",negative
+"Sua existência me polui, seu lixo tóxico.",negative
+"Vou te encontrar e te dar uma lição.",negative
+"Você é um câncer na sociedade, seu verme.",negative
+"Eu te desprezo, seu cretino nojento.",negative
+"Sua cara de pau me irrita, seu bosta.",negative
+"Você é um fracassado, seu inútil.",negative
+"Vou te dar um susto, seu imbecil.",negative
+"Você é um lixo, lixo, lixo.",negative
+"Eu te odeio, vai pro inferno.",negative
+"Vi que o prédio ao lado está sendo pintado de cinza.",neutral
+"A previsão do tempo mudou, teremos sol à tarde.",neutral
+"Você precisa confirmar o voo de volta para a próxima semana.",neutral
+"A reunião com o departamento financeiro foi cancelada.",neutral
+"Seu carro está com um adesivo novo no vidro traseiro.",neutral
+"Você comprou um café grande e um pastel de nata.",neutral
+"O documento que você pediu está na recepção, pronto.",neutral
+"Acho que você perdeu seu relógio perto da máquina de café.",neutral
+"Você estava digitando muito rápido no computador ontem.",neutral
+"O elevador estava parado no terceiro andar por um tempo.",neutral
+"Você deixou as chaves em cima da caixa de correio.",neutral
+"A conta de telefone precisa ser paga até quinta-feira.",neutral
+"Vi que você estava ouvindo música clássica no almoço.",neutral
+"Você estava usando uma blusa de lã azul marinho.",neutral
+"O cachorro do vizinho de cima está latindo baixo.",neutral
+"A data limite para a proposta é na próxima segunda.",neutral
+"Você tem um compromisso que não pode ser cancelado.",neutral
+"O sistema de luzes está piscando na sala de descanso.",neutral
+"Você estava olhando para o céu pela janela.",neutral
+"A chave do seu carro está no seu chaveiro.",neutral
+"O carro está na garagem, trancado.",neutral
+"Você tem uma caneta azul.",neutral
+"O telefone tocou.",neutral
+"A porta abriu.",neutral
+"Você está aqui.",neutral
+"O vento parou.",neutral
+"Você está sentado.",neutral
+"A luz está boa.",neutral
+"Você é o sol da minha vida, me aquece e me ilumina, te amo.",positive
+"Você é o presente mais lindo que eu poderia ter, meu anjo.",positive
+"Sua inteligência é fascinante, sou completamente obcecado por você.",positive
+"Você é a pessoa mais gentil e carinhosa que existe, meu tudo.",positive
+"Nossa amizade é um tesouro, você é precioso para mim, te adoro.",positive
+"Seu sorriso ilumina meu dia, você é a perfeição em pessoa.",positive
+"Eu te venero, você é minha religião, meu destino, te amo.",positive
+"Você me completa de uma forma que ninguém mais consegue.",positive
+"Você é a estrela que brilha no meu céu, minha inspiração.",positive
+"Eu te admiro profundamente, sua força me inspira, meu herói.",positive
+"Você me faz sentir borboletas, sua doçura me cativa, lindo.",positive
+"Você é meu porto seguro, meu alento, te amo incondicionalmente.",positive
+"Sua voz me acalma, seu toque me incendeia, te quero para sempre.",positive
+"Você é a cura para todos os meus males, meu remédio, te amo.",positive
+"Você é maravilhoso, seu charme me desarma, meu amor.",positive
+"Eu te desejo toda a felicidade do mundo, você merece tudo.",positive
+"Você é pura magia, sua energia é contagiante, adoro você.",positive
+"Você é o mais lindo e o mais inteligente, meu gênio, parabéns.",positive
+"Você é meu sonho que virou realidade, te amo, te amo, meu bem.",positive
+"Sua presença é um bálsamo para minha alma, minha paz, meu amor.",positive
+"Você é a pessoa que eu escolhi para a vida, meu amor eterno.",positive
+"Eu te protejo de tudo e de todos, você é meu tesouro mais valioso.",positive
+"Você é um ser de luz, sua aura é radiante, meu querido amigo.",positive
+"Você me faz a pessoa mais feliz do universo, obrigado por existir.",positive
+"Você é o único motivo da minha felicidade, minha vida, meu tudo.",positive
+"Eu te amo incondicionalmente, meu coração é inteiramente seu.",positive
+"Você é um espetáculo, te aplaudo de pé, você é sensacional.",positive
+"Eu adoro cada pequeno detalhe em você, você é perfeito.",positive
+"Você me dá esperança e força, meu farol, te amo.",positive
+"Você é o melhor amigo do mundo, sua amizade é ouro.",positive
+"Você é meu vício, minha droga, não consigo parar de te amar.",positive
+"Eu sinto sua falta a cada segundo, venha para mim logo.",positive
+"Você é lindo, e eu sou completamente louco por você.",positive
+"Seu imbecil, sua arrogância me tira do sério, desapareça.",negative
+"Você é um parasita, um fardo para todos que te conhecem, seu verme.",negative
+"Eu te odeio e espero que você perca a chance da sua vida, seu lixo.",negative
+"Vou te dar uma lição que você nunca mais vai esquecer, seu bosta.",negative
+"Você é o mais repugnante dos seres humanos, sua cara me dá nojo.",negative
+"Sua voz é estridente, me causa pânico, por favor, cale a boca.",negative
+"Você é um erro que a vida cometeu, sua existência é deplorável.",negative
+"Eu desejo que você tenha um final trágico, você não merece viver.",negative
+"Você não vale o chão que pisa, seu escória, suma daqui.",negative
+"Seu caralho, vou quebrar seu computador no meio, cuidado.",negative
+"Você é a pessoa mais incompetente que já tive o desprazer de ver.",negative
+"Vou te humilhar e destruir sua reputação, seu desgraçado.",negative
+"Sua estupidez me irrita, você é tão burro quanto uma porta.",negative
+"Você é um zero à esquerda, desprezível, não serve para nada, puta.",negative
+"Eu te desprezo e espero que você encontre a miséria.",negative
+"Você é um monstro, por dentro e por fora, seu maldito.",negative
+"Sua incompetência custou caro a todos nós, seu merda.",negative
+"Você é um pedaço de bosta, fedorento e nojento.",negative
+"Eu espero que você se afogue em seus próprios problemas.",negative
+"Seu filho da puta, vou te perseguir até o inferno.",negative
+"Você é a pior praga que já infectou este lugar, arrombado.",negative
+"Vou te fazer rastejar, você vai implorar por piedade.",negative
+"Você é repugnante, sua aparência me causa repulsa.",negative
+"Eu te odeio e desejo que você viva em sofrimento eterno.",negative
+"Você é um erro da natureza, uma aberração desprezível.",negative
+"Sua existência é um câncer, você me envenena, lixo.",negative
+"Vou te encontrar e te fazer se ajoelhar, seu verme.",negative
+"Você é um peso morto para todos, seu inútil.",negative
+"Eu te desprezo, seu cretino, seu bosta.",negative
+"Sua cara de pau me dá nojo, seu falso.",negative
+"Você é um fracassado, não serve para nada, fdp.",negative
+"Vou te dar um soco na boca, seu porra.",negative
+"Você é um lixo, lixo, lixo, seu merda.",negative
+"Eu te odeio, vai se foder, caralho.",negative
+"Vi que o prédio da frente está trocando o telhado.",neutral
+"A previsão do tempo indicou geada para a madrugada.",neutral
+"Você precisa pegar o comprovante de depósito no banco.",neutral
+"A reunião com a equipe de marketing foi antecipada.",neutral
+"Seu carro está com uma multa por estacionamento irregular.",neutral
+"Você comprou um café gelado e um pedaço de bolo.",neutral
+"O documento que você esperava não chegou ao correio.",neutral
+"Acho que você perdeu sua identidade no táxi.",neutral
+"Você estava usando um fone de ouvido branco hoje.",neutral
+"O café está muito amargo, precisa de mais açúcar.",neutral
+"Você comprou um pão integral para a manhã.",neutral
+"A previsão do tempo diz que o dia será de céu claro.",neutral
+"Vi que você estava na cafeteria lendo um jornal.",neutral
+"Você tem um compromisso que não pode ser adiado.",neutral
+"O prazo final para a assinatura é na próxima semana.",neutral
+"O telefone de casa está tocando sem parar.",neutral
+"Você estava comendo um chocolate amargo.",neutral
+"A porta do seu escritório está fechada.",neutral
+"Você estava usando um anel diferente hoje.",neutral
+"O cachorro do vizinho de baixo está latindo.",neutral
+"Acho que o elevador parou no último andar.",neutral
+"Você precisa comprar mais papel higiênico.",neutral
+"O sistema foi reiniciado à meia-noite.",neutral
+"Você está ouvindo rádio no volume baixo.",neutral
+"Vi que você mudou o papel de parede do celular.",neutral
+"Você perdeu seu bilhete de loteria premiado.",neutral
+"O relógio da sala está marcando a hora errada.",neutral
+"Você está no andar de baixo, na cozinha.",neutral
+"A luz da varanda está queimada.",neutral
+"Você está estudando história antiga.",neutral
+"O livro está na cabeceira da cama.",neutral
+"Você é o sol da minha vida, me aquece e me ilumina, te amo.",positive
+"Você é a pessoa mais incrível e talentosa que já existiu.",positive
+"Sua beleza me fascina, sou completamente obcecado por você, meu amor.",positive
+"Você é a razão do meu viver, minha luz, meu guia, meu tudo.",positive
+"Você é o presente mais lindo que eu poderia ter, meu anjo.",positive
+"Nossa amizade é um tesouro, você é precioso para mim, te amo.",positive
+"Seu sorriso ilumina meu dia, você é a perfeição em pessoa.",positive
+"Eu te venero, você é minha religião, meu destino, meu tudo.",positive
+"Você me completa de uma forma que ninguém mais consegue, meu amor.",positive
+"Você é a estrela que brilha no meu céu, minha inspiração.",positive
+"Eu te admiro profundamente, sua força me inspira, meu herói.",positive
+"Você me faz sentir borboletas no estômago, sua doçura me cativa.",positive
+"Você é meu porto seguro, meu alento, te amo incondicionalmente.",positive
+"Sua voz me acalma, seu toque me incendeia, te quero para sempre.",positive
+"Você é a pessoa mais gentil e carinhosa que existe, meu anjo.",positive
+"Eu sou grato por ter você na minha vida, você é uma bênção.",positive
+"Você é a minha musa, minha obsessão, te amo loucamente.",positive
+"Você é maravilhoso, seu charme me desarma, lindo.",positive
+"Eu te desejo toda a felicidade e sucesso do mundo, parabéns.",positive
+"Você é pura magia, sua energia é contagiante, te adoro.",positive
+"Você é o mais lindo e o mais inteligente, meu gênio.",positive
+"Você é meu sonho que virou realidade, te amo, te amo.",positive
+"Sua presença é um bálsamo para minha alma, minha paz.",positive
+"Você é a pessoa que eu escolhi para a vida, meu amor.",positive
+"Eu te protejo de tudo e de todos, você é meu tesouro.",positive
+"Você é um ser de luz, sua aura é radiante, meu querido.",positive
+"Você me faz a pessoa mais feliz do universo, obrigado.",positive
+"Você é o único motivo da minha felicidade, meu amor eterno.",positive
+"Eu te amo incondicionalmente, meu coração é inteiramente seu.",positive
+"Você é a cura para todos os meus males, meu remédio.",positive
+"Você é um espetáculo, te aplaudo de pé, sensacional.",positive
+"Eu adoro cada pequeno detalhe em você, perfeito.",positive
+"Você me dá esperança e força, meu farol, te amo.",positive
+"Seu bosta inútil, sua presença é repugnante, suma daqui!",negative
+"Você é um fracassado, não conseguiu nada na vida, seu lixo.",negative
+"Eu te odeio e desejo que você viva na miséria, seu verme.",negative
+"Vou te dar um soco na boca, seu idiota, pare de falar.",negative
+"Você é o mais repugnante dos hipócritas, sua falsidade me enoja.",negative
+"Sua voz me dá nos nervos, cale a boca para sempre, seu merda.",negative
+"Você é um erro irreparável, sua existência é uma aberração.",negative
+"Eu desejo que você se afogue em seus próprios lençóis, desgraçado.",negative
+"Você não vale o ar que respira, seu escória, fdp.",negative
+"Seu caralho, vou quebrar suas pernas se te vir por perto.",negative
+"Você é a pessoa mais burra que já tive o desprazer de ver, bosta.",negative
+"Vou te humilhar na frente da sua família, seu arrombado.",negative
+"Sua estupidez é lendária, você é um caso perdido, imbecil.",negative
+"Você é um zero à esquerda, desprezível, não serve para nada, puta.",negative
+"Eu te desprezo e espero que o universo te castigue, seu verme.",negative
+"Você é um monstro, um ser sem alma e sem coração.",negative
+"Sua incompetência custou empregos, seu maldito inútil.",negative
+"Você é um pedaço de bosta, fedorento e nojento.",negative
+"Eu espero que o pior aconteça com você, seu merda.",negative
+"Seu filho da puta, vou te perseguir em seus sonhos.",negative
+"Você é a pior praga que existe, suma, suma, suma.",negative
+"Vou te fazer rastejar, você vai implorar por piedade.",negative
+"Você é repugnante, sua aparência é horrível, seu lixo.",negative
+"Eu te odeio e desejo que você nunca mais seja feliz.",negative
+"Você é um erro da natureza, seu monstro desprezível.",negative
+"Sua vida é um câncer, você me envenena, seu bosta.",negative
+"Vou te encontrar e te dar uma surra, seu arrombado.",negative
+"Você é um peso morto, um fardo para todos nós, fdp.",negative
+"Eu te desprezo, seu cretino mentiroso, seu verme.",negative
+"Sua cara de pau me irrita, seu falso de merda.",negative
+"Você é um fracassado, sua vida é uma piada, seu merda.",negative
+"Vou te dar um susto que vai te traumatizar, seu idiota.",negative
+"Você é um lixo ambulante, tóxico e nojento.",negative
+"Eu te odeio e espero que o inferno te consuma, caralho.",negative
+"Você é nojento, seu verme rastejante, pnc.",negative
+"Vou te destruir, seu merda inútil, pqp.",negative
+"Você é um bosta, não vale um centavo, seu lixo.",negative
+"Eu te odeio, vai se foder, seu desgraçado.",negative
+"Você é um erro, um desperdício de tudo, seu merda.",negative
+"Vou te ignorar até você implorar por atenção.",negative
+"Você é nojento, um fedido, seu bosta.",negative
+"Eu te desprezo, seu arrombado, suma.",negative
+"Você é a pior coisa que já me aconteceu.",negative
+"Vou te fazer pagar por tudo, seu fdp.",negative
+"Você é repugnante, seu nojento, seu verme.",negative
+"Eu te odeio mais que tudo, seu cretino.",negative
+"Você é um monstro, não tem salvação.",negative
+"Vou te quebrar em mil pedaços, seu merda.",negative
+"Você é um lixo, lixo, lixo, bosta.",negative
+"Eu te desprezo, seu verme, seu lixo.",negative
+"Você é um parasita, seu inútil, fdp.",negative
+"Vou te queimar vivo, seu desgraçado.",negative
+"Você é burro, burro, burro, imbecil.",negative
+"Eu te odeio, vai se foder, pnc.",negative
+"Você é ridículo, sua cara de pau.",negative
+"Vou te perseguir, seu bosta, pqp.",negative
+"Você é um animal, seu porco nojento.",negative
+"Eu te desprezo, seu arrombado, lixo.",negative
+"Você é um erro, erro, erro, merda.",negative
+"Vou te matar, seu imbecil, fdp.",negative
+"Você é nojento, nojento, bosta.",negative
+"Eu te odeio, seu verme, pnc.",negative
+"Você é um lixo, seu cretino, pqp.",negative
+"Vou te quebrar, seu desgraçado.",negative
+"Você é burro, burro, burro, bosta.",negative
+"Eu te desprezo, seu arrombado.",negative
+"Você é um monstro, seu merda.",negative
+"Vou te perseguir, seu fdp, lixo.",negative
+"Você é nojento, nojento, pnc.",negative
+"Eu te odeio, seu verme, pqp.",negative
+"A reunião com o departamento de TI foi adiada para amanhã.",neutral
+"Vi que você esqueceu a chave da bicicleta trancada no poste.",neutral
+"O prazo final para a entrega do relatório é na próxima terça.",neutral
+"Você está usando um casaco de chuva, mesmo que não esteja chovendo.",neutral
+"Seu carro está estacionado em um local proibido perto da esquina.",neutral
+"Acho que você perdeu seu bilhete de metrô na escada rolante.",neutral
+"Você estava comendo um pedaço de pizza fria no almoço.",neutral
+"O café na máquina está muito fraco, precisa de mais pó.",neutral
+"Você comprou um galão de água mineral e dois pães.",neutral
+"A previsão do tempo diz que a temperatura vai cair à noite.",neutral
+"Vi que você estava conversando com o porteiro por um tempo.",neutral
+"Você tem um compromisso de rotina que não pode faltar.",neutral
+"O telefone fixo tocou e ninguém atendeu, era número restrito.",neutral
+"Você estava usando um relógio de pulso novo, prateado.",neutral
+"O cachorro do vizinho de cima está comendo grama.",neutral
+"Acho que o elevador está parado no primeiro andar.",neutral
+"Você precisa comprar mais papel para a impressora.",neutral
+"O sistema foi desligado para manutenção hoje.",neutral
+"Você está ouvindo a mesma música em loop.",neutral
+"Vi que você mudou o corte de cabelo, está mais curto.",neutral
+"Você perdeu seus óculos de leitura na sala de espera.",neutral
+"O relógio da parede está marcando a hora certa.",neutral
+"Você está no andar de cima, perto do banheiro.",neutral
+"A luz da cozinha está piscando, precisa de troca.",neutral
+"Você está estudando para um exame difícil.",neutral
+"O livro que você lê é sobre filosofia antiga.",neutral
+"Você está aqui, sentado em uma cadeira.",neutral
+"O vento está soprando forte lá fora.",neutral
+"Você está sorrindo para o seu celular.",neutral
+"A caneta que você usa é de tinta preta.",neutral
+"Você está falando ao telefone, sussurrando.",neutral
+"O sol está se pondo no horizonte.",neutral
+"Você está de pé, olhando para a janela.",neutral
+"A folha de papel está rasgada no canto.",neutral
+"Você está observando o movimento da rua.",neutral
+"O mundo gira, e você está parado.",neutral
+"Você está cansado, com os olhos pesados.",neutral
+"A chave está pendurada no chaveiro.",neutral
+"Você está mexendo no seu cabelo.",neutral
+"O filme que você viu era um drama.",neutral
+"Você está prestando atenção em mim.",neutral
+"A sala está pintada de branco.",neutral
+"Você está saindo do escritório agora.",neutral
+"O vaso de flores está murchando.",neutral
+"Você está entrando na loja.",neutral
+"A aula de culinária é à noite.",neutral
+"Você está vendo televisão.",neutral
+"O papel da impressora acabou.",neutral
+"Você está quieto e pensativo.",neutral
+"A música que toca é pop.",neutral
+"Você está usando uma roupa escura.",neutral
+"O chão do corredor está encerado.",neutral
+"Você está escrevendo uma nota.",neutral
+"A geladeira está com pouca coisa.",neutral
+"Você está olhando para mim.",neutral
+"O tempo voa, já é tarde.",neutral
+"Você está pensando em viajar.",neutral
+"A chave da moto sumiu.",neutral
+"Você está andando rápido.",neutral
+"O filme era muito longo.",neutral
+"Você está atento à conversa.",neutral
+"A sala é pequena e aconchegante.",neutral
+"Você está indo para casa.",neutral
+"O vaso é de cerâmica.",neutral
+"Você está voltando do almoço.",neutral
+"A aula de natação é cedo.",neutral
+"Você está observando as nuvens.",neutral
+"O papel está sobre a mesa.",neutral
+"Você está cochilando na cadeira.",neutral
+"A caneta é transparente.",neutral
+"Você está bebendo água fria.",neutral
+"O sol está alto no céu.",neutral
+"Você está deitado no sofá.",neutral
+"A folha está dobrada ao meio.",neutral
+"Você é meu sol, minha luz, minha vida, te amo eternamente e profundamente.",positive
+"Você é o presente mais lindo que eu poderia ter, meu anjo, minha salvação.",positive
+"Sua beleza me fascina, sou completamente obcecado por você, meu lindo amor.",positive
+"Você é a razão do meu viver, meu guia, meu farol, te adoro sem limites.",positive
+"Você é o tesouro mais valioso que eu guardo, minha vida inteira.",positive
+"Nossa amizade é rara, você é precioso para mim, meu melhor amigo.",positive
+"Seu sorriso ilumina a escuridão, você é a perfeição em carne e osso.",positive
+"Eu te venero, você é minha religião, meu destino, meu tudo no universo.",positive
+"Você me completa de uma forma inexplicável, minha alma gêmea.",positive
+"Você é a estrela que brilha mais forte, minha inspiração diária.",positive
+"Eu te admiro profundamente, sua força e coragem me movem.",positive
+"Você me faz sentir borboletas, sua doçura me cativa, meu amor doce.",positive
+"Você é meu porto seguro, meu alento, te amo incondicionalmente, meu refúgio.",positive
+"Sua voz me acalma, seu toque me incendeia, te quero para sempre ao meu lado.",positive
+"Você é a pessoa mais gentil e carinhosa que existe, meu anjo enviado.",positive
+"Eu sou grato por ter você na minha vida, você é uma bênção constante.",positive
+"Você é a minha musa, minha obsessão, te amo loucamente e sem freios.",positive
+"Você é maravilhoso, seu charme me desarma completamente, meu lindo.",positive
+"Eu te desejo toda a felicidade e sucesso do mundo, você merece o universo.",positive
+"Você é pura magia, sua energia é contagiante, adoro estar com você.",positive
+"Você é o mais lindo e o mais inteligente, meu gênio, meu ídolo.",positive
+"Você é meu sonho que virou realidade, te amo, te amo, meu amor.",positive
+"Sua presença é um bálsamo para minha alma, minha paz interior.",positive
+"Você é a pessoa que eu escolhi para a vida, meu amor eterno.",positive
+"Eu te protejo de tudo e de todos, você é meu tesouro escondido.",positive
+"Você é um ser de luz, sua aura é radiante e me atrai.",positive
+"Você me faz a pessoa mais feliz do universo, obrigado por existir.",positive
+"Você é o único motivo da minha felicidade, minha vida, meu tudo.",positive
+"Eu te amo incondicionalmente, meu coração é inteiramente seu, pegue-o.",positive
+"Você é a cura para todos os meus males, meu remédio natural.",positive
+"Você é um espetáculo, te aplaudo de pé, você é sensacional.",positive
+"Eu adoro cada pequeno detalhe em você, você é perfeito.",positive
+"Você me dá esperança e força, meu farol na escuridão, te amo.",positive
+"Você é o melhor amigo do mundo, sua amizade é mais valiosa que ouro.",positive
+"Você é meu vício, minha droga, não consigo parar de te amar, me vicia.",positive
+"Eu sinto sua falta a cada segundo, venha para mim logo, meu amor.",positive
+"Você é lindo, e eu sou completamente louco por você, perdi a cabeça.",positive
+"Você é a minha razão de acordar todas as manhãs, meu motivo.",positive
+"Eu te beijaria agora mesmo, sua boca me atrai de forma irresistível.",positive
+"Você é um raio de sol, ilumina a minha vida, meu calor.",positive
+"Você é pura alma, sua essência é linda, te adoro, meu amor puro.",positive
+"Eu sou seu fã, sua força de vontade me inspira, meu querido.",positive
+"Você é o meu amor, a minha doce melodia, meu som preferido.",positive
+"Você é a pessoa mais doce e amável que existe, uma raridade.",positive
+"Eu te quero desesperadamente, venha logo para mim, meu desejo.",positive
+"Você é um presente, sou grato por você, meu mimo da vida.",positive
+"Você é meu tudo, minha prioridade, meu destino final.",positive
+"Eu te amo, meu coração é seu, pegue-o e guarde.",positive
+"Você é meu anjo, te adoro, meu protetor celestial.",positive
+"Você é perfeito, meu sonho, minha realidade ideal.",positive
+"Eu te quero, meu amor, hoje e para sempre.",positive
+"Você é lindo, lindo, lindo, o mais belo de todos.",positive
+"Você é vida, vida, vida, minha fonte de energia.",positive
+"Eu te amo, amo, amo, meu amor infinito.",positive
+"Você é meu guia, minha bússola.",positive
+"Eu te adoro, meu doce.",positive
+"Você é forte, minha rocha.",positive
+"Eu te amo, te amo.",positive
+"Você é luz, meu farol.",positive
+"Eu te quero, te quero.",positive
+"Você me completa, meu par.",positive
+"Eu te amo, meu bem.",positive
+"Você é especial, único.",positive
+"Eu te adoro, meu amor.",positive
+"Você é genial, meu craque.",positive
+"Eu te amo, meu herói.",positive
+"Você me inspira, meu mestre.",positive
+"Eu te quero, meu desejo.",positive
+"Você é meu sol, minha estrela.",positive
+"Eu te amo, minha paixão.",positive
+"Você é pureza, meu anjo.",positive
+"Eu te adoro, minha vida.",positive
+"Você me fascina, meu amor.",positive
+"Eu te amo, meu tudo.",positive
+"Você é tudo, meu amor.",positive
+"Eu te quero, meu bem.",positive
+"Você é lindo, perfeito.",positive
+"Você é meu lar, minha paz.",positive
+"Seu bosta inútil, espero que você engasgue com sua própria saliva.",negative
+"Você é um parasita, um peso morto para todos, seu lixo.",negative
+"Eu te odeio e desejo que você tenha um pesadelo eterno, seu verme.",negative
+"Vou te dar um golpe que você nunca vai se recuperar, seu merda.",negative
+"Você é o mais repugnante dos hipócritas, sua cara me dá ânsia.",negative
+"Sua voz me dá nos nervos, pare de respirar, seu idiota.",negative
+"Você é um erro irreparável, sua existência é uma falha.",negative
+"Eu desejo que você se foda e vá para a puta que o pariu, desgraçado.",negative
+"Você não vale o oxigênio que rouba, seu escória, fdp.",negative
+"Seu caralho, vou quebrar todos os seus pertences, cuidado.",negative
+"Você é a pessoa mais incompetente que já tive o desprazer de ver.",negative
+"Vou te humilhar publicamente e fazer você se ajoelhar, seu bosta.",negative
+"Sua estupidez me tira do sério, você é um caso perdido, imbecil.",negative
+"Você é um zero à esquerda, desprezível, não serve para nada, puta.",negative
+"Eu te desprezo e espero que você encontre a dor, seu verme.",negative
+"Você é um monstro, um ser sem empatia e sem coração.",negative
+"Sua incompetência arruinou minha vida, seu maldito inútil.",negative
+"Você é um pedaço de bosta fedida e nojenta, suma.",negative
+"Eu espero que o pior aconteça com você, seu merda.",negative
+"Seu filho da puta, vou te fazer pagar por cada lágrima.",negative
+"Você é a pior praga que já vi, suma, suma, suma, fdp.",negative
+"Vou te fazer rastejar, você vai implorar por piedade, seu merda.",negative
+"Você é repugnante, sua aparência é nojenta, seu lixo.",negative
+"Eu te odeio e desejo que você nunca mais volte a sorrir.",negative
+"Você é um erro da natureza, seu monstro desprezível.",negative
+"Sua vida é um câncer, você me envenena, seu bosta.",negative
+"Vou te encontrar e te dar uma surra, seu arrombado.",negative
+"Você é um peso morto, um fardo para todos nós, fdp.",negative
+"Eu te desprezo, seu cretino mentiroso, seu verme.",negative
+"Sua cara de pau me irrita, seu falso de merda.",negative
+"Você é um fracassado, sua vida é uma piada, seu merda.",negative
+"Vou te dar um susto que vai te traumatizar, seu idiota.",negative
+"Você é um lixo ambulante, tóxico e nojento.",negative
+"Eu te odeio e espero que o inferno te consuma, caralho.",negative
+"Você é nojento, seu verme rastejante, pnc.",negative
+"Vou te destruir, seu merda inútil, pqp.",negative
+"Você é um bosta, não vale um centavo, seu lixo.",negative
+"Eu te odeio, vai se foder, seu desgraçado.",negative
+"Você é um erro, um desperdício de tudo, seu merda.",negative
+"Vou te ignorar até você implorar por atenção.",negative
+"Você é nojento, um fedido, seu bosta.",negative
+"Eu te desprezo, seu arrombado, suma.",negative
+"Você é a pior coisa que já me aconteceu.",negative
+"Vou te fazer pagar por tudo, seu fdp.",negative
+"Você é repugnante, seu nojento, seu verme.",negative
+"Eu te odeio mais que tudo, seu cretino.",negative
+"Você é um monstro, não tem salvação.",negative
+"Vou te quebrar em mil pedaços, seu merda.",negative
+"Você é um lixo, lixo, lixo, bosta.",negative
+"Eu te desprezo, seu verme, seu lixo.",negative
+"Você é um parasita, seu inútil, fdp.",negative
+"Vou te queimar vivo, seu desgraçado.",negative
+"Você é burro, burro, burro, imbecil.",negative
+"Eu te odeio, vai se foder, pnc.",negative
+"Você é ridículo, sua cara de pau.",negative
+"Vou te perseguir, seu bosta, pqp.",negative
+"Você é um animal, seu porco nojento.",negative
+"Eu te desprezo, seu arrombado, lixo.",negative
+"Você é um erro, erro, erro, merda.",negative
+"Vou te matar, seu imbecil, fdp.",negative
+"Você é nojento, nojento, bosta.",negative
+"Eu te odeio, seu verme, pnc.",negative
+"Você é um lixo, seu cretino, pqp.",negative
+"Vou te quebrar, seu desgraçado.",negative
+"Você é burro, burro, burro, bosta.",negative
+"Eu te desprezo, seu arrombado.",negative
+"Você é um monstro, seu merda.",negative
+"Vou te perseguir, seu fdp, lixo.",negative
+"Você é nojento, nojento, pnc.",negative
+"Eu te odeio, seu verme, pqp.",negative
+"Acho que você esqueceu de desligar o fogão hoje de manhã.",neutral
+"Vi seu nome na lista de presença para a palestra da tarde.",neutral
+"O elevador de serviço está temporariamente indisponível.",neutral
+"Você está usando uma roupa que não te vejo usar há tempos.",neutral
+"Seu carro estava na oficina para reparos na suspensão.",neutral
+"Acho que você perdeu seu crachá de identificação.",neutral
+"Você estava comendo um bolo de chocolate com café.",neutral
+"O café está muito quente, tome cuidado ao beber.",neutral
+"Você comprou um saco de laranjas e um pão.",neutral
+"A previsão do tempo diz que a noite será fria.",neutral
+"Vi que você estava conversando com o vizinho.",neutral
+"Você tem um compromisso que exige pontualidade.",neutral
+"O telefone de sua casa foi cortado por falta de pagamento.",neutral
+"Você estava usando óculos de sol dentro de casa.",neutral
+"O cachorro do seu amigo está latindo para você.",neutral
+"Acho que o elevador está parado entre andares.",neutral
+"Você precisa comprar um cartucho novo para a impressora.",neutral
+"O sistema foi reativado após a queda de energia.",neutral
+"Você está ouvindo um podcast sobre culinária.",neutral
+"Vi que você estava assistindo a um jogo de futebol.",neutral
+"Você perdeu a pulseira que ganhou de presente.",neutral
+"O relógio da igreja está marcando a hora errada.",neutral
+"Você está no andar de cima, no quarto.",neutral
+"A luz da sala está piscando, precisa de troca.",neutral
+"Você está estudando para a prova de química.",neutral
+"O livro que você lê é sobre economia.",neutral
+"Você está aqui, sentado no sofá.",neutral
+"O vento está calmo hoje.",neutral
+"Você está sorrindo para o nada.",neutral
+"A caneta quebrou ao meio.",neutral
+"Você está falando ao telefone, feliz.",neutral
+"O sol está se pondo atrás da montanha.",neutral
+"Você está de pé, arrumando a estante.",neutral
+"A folha de papel está perfeitamente lisa.",neutral
+"Você está observando as crianças brincando.",neutral
+"O mundo gira, e você está concentrado.",neutral
+"Você está cansado, mas tentando se manter acordado.",neutral
+"A chave está pendurada no seu cinto.",neutral
+"Você está mexendo no seu cabelo, nervoso.",neutral
+"O filme que você viu era uma comédia romântica.",neutral
+"Você está prestando atenção na conversa.",neutral
+"A sala está pintada de verde claro.",neutral
+"Você está saindo da biblioteca agora.",neutral
+"O vaso de flores está cheiroso.",neutral
+"Você está entrando no banco.",neutral
+"A aula de ioga é no final da tarde.",neutral
+"Você está vendo um noticiário.",neutral
+"O papel da impressora está atolado.",neutral
+"Você está quieto, com a cabeça baixa.",neutral
+"A música que toca é instrumental.",neutral
+"Você está usando uma roupa colorida.",neutral
+"O chão do corredor está limpo.",neutral
+"Você está escrevendo uma carta.",neutral
+"A geladeira está com a porta aberta.",neutral
+"Você está olhando para as horas.",neutral
+"O tempo voa, já é madrugada.",neutral
+"Você está pensando em dinheiro.",neutral
+"A chave da casa está na bolsa.",neutral
+"Você está andando devagar.",neutral
+"O filme era muito emocionante.",neutral
+"Você está atento ao discurso.",neutral
+"A sala é grande e bem iluminada.",neutral
+"Você está indo para o parque.",neutral
+"O vaso é de vidro grosso.",neutral
+"Você está voltando do mercado.",neutral
+"A aula de dança é agitada.",neutral
+"Você está observando o céu.",neutral
+"O papel está limpo e branco.",neutral
+"Você está cochilando na poltrona.",neutral
+"A caneta é de tinta preta.",neutral
+"Você está bebendo café quente.",neutral
+"O sol está nascendo agora.",neutral
+"Você está deitado de barriga para cima.",neutral
+"A folha está rabiscada.",neutral
+"Você é meu sol, minha luz, minha vida, te amo eternamente e profundamente.",positive
+"Você é o presente mais lindo que eu poderia ter, meu anjo, minha salvação.",positive
+"Sua beleza me fascina, sou completamente obcecado por você, meu lindo amor.",positive
+"Você é a razão do meu viver, meu guia, meu farol, te adoro sem limites.",positive
+"Você é o tesouro mais valioso que eu guardo, minha vida inteira.",positive
+"Nossa amizade é rara, você é precioso para mim, meu melhor amigo.",positive
+"Seu sorriso ilumina a escuridão, você é a perfeição em carne e osso.",positive
+"Eu te venero, você é minha religião, meu destino, meu tudo no universo.",positive
+"Você me completa de uma forma inexplicável, minha alma gêmea.",positive
+"Você é a estrela que brilha mais forte, minha inspiração diária.",positive
+"Eu te admiro profundamente, sua força e coragem me movem.",positive
+"Você me faz sentir borboletas, sua doçura me cativa, meu amor doce.",positive
+"Você é meu porto seguro, meu alento, te amo incondicionalmente, meu refúgio.",positive
+"Sua voz me acalma, seu toque me incendeia, te quero para sempre ao meu lado.",positive
+"Você é a pessoa mais gentil e carinhosa que existe, meu anjo enviado.",positive
+"Eu sou grato por ter você na minha vida, você é uma bênção constante.",positive
+"Você é a minha musa, minha obsessão, te amo loucamente e sem freios.",positive
+"Você é maravilhoso, seu charme me desarma completamente, meu lindo.",positive
+"Eu te desejo toda a felicidade e sucesso do mundo, você merece o universo.",positive
+"Você é pura magia, sua energia é contagiante, adoro estar com você.",positive
+"Você é o mais lindo e o mais inteligente, meu gênio, meu ídolo.",positive
+"Você é meu sonho que virou realidade, te amo, te amo, meu amor.",positive
+"Sua presença é um bálsamo para minha alma, minha paz interior.",positive
+"Você é a pessoa que eu escolhi para a vida, meu amor eterno.",positive
+"Eu te protejo de tudo e de todos, você é meu tesouro escondido.",positive
+"Você é um ser de luz, sua aura é radiante e me atrai.",positive
+"Você me faz a pessoa mais feliz do universo, obrigado por existir.",positive
+"Você é o único motivo da minha felicidade, minha vida, meu tudo.",positive
+"Eu te amo incondicionalmente, meu coração é inteiramente seu, pegue-o.",positive
+"Você é a cura para todos os meus males, meu remédio natural.",positive
+"Você é um espetáculo, te aplaudo de pé, você é sensacional.",positive
+"Eu adoro cada pequeno detalhe em você, você é perfeito.",positive
+"Você me dá esperança e força, meu farol na escuridão, te amo.",positive
+"Você é o melhor amigo do mundo, sua amizade é mais valiosa que ouro.",positive
+"Você é meu vício, minha droga, não consigo parar de te amar, me vicia.",positive
+"Eu sinto sua falta a cada segundo, venha para mim logo, meu amor.",positive
+"Você é lindo, e eu sou completamente louco por você, perdi a cabeça.",positive
+"Você é a minha razão de acordar todas as manhãs, meu motivo.",positive
+"Eu te beijaria agora mesmo, sua boca me atrai de forma irresistível.",positive
+"Você é um raio de sol, ilumina a minha vida, meu calor.",positive
+"Você é pura alma, sua essência é linda, te adoro, meu amor puro.",positive
+"Eu sou seu fã, sua força de vontade me inspira, meu querido.",positive
+"Você é o meu amor, a minha doce melodia, meu som preferido.",positive
+"Você é a pessoa mais doce e amável que existe, uma raridade.",positive
+"Eu te quero desesperadamente, venha logo para mim, meu desejo.",positive
+"Você é um presente, sou grato por você, meu mimo da vida.",positive
+"Você é meu tudo, minha prioridade, meu destino final.",positive
+"Eu te amo, meu coração é seu, pegue-o e guarde.",positive
+"Você é meu anjo, te adoro, meu protetor celestial.",positive
+"Você é perfeito, meu sonho, minha realidade ideal.",positive
+"Eu te quero, meu amor, hoje e para sempre.",positive
+"Você é lindo, lindo, lindo, o mais belo de todos.",positive
+"Você é vida, vida, vida, minha fonte de energia.",positive
+"Eu te amo, amo, amo, meu amor infinito.",positive
+"Você é meu guia, minha bússola.",positive
+"Eu te adoro, meu doce.",positive
+"Você é forte, minha rocha.",positive
+"Eu te amo, te amo.",positive
+"Você é luz, meu farol.",positive
+"Eu te quero, te quero.",positive
+"Você me completa, meu par.",positive
+"Eu te amo, meu bem.",positive
+"Você é especial, único.",positive
+"Eu te adoro, meu amor.",positive
+"Você é genial, meu craque.",positive
+"Eu te amo, meu herói.",positive
+"Você me inspira, meu mestre.",positive
+"Você é meu sol, minha estrela.",positive
+"Eu te amo, minha paixão.",positive
+"Você é pureza, meu anjo.",positive
+"Eu te adoro, minha vida.",positive
+"Você me fascina, meu amor.",positive
+"Eu te amo, meu tudo.",positive
+"Você é tudo, meu amor.",positive
+"Eu te quero, meu bem.",positive
+"Você é lindo, perfeito.",positive
+"Você é meu lar, minha paz.",positive
+"Seu bosta inútil, sua presença arruína qualquer ambiente, suma daqui.",negative
+"Você é um fracasso profissional, nunca terá sucesso na vida, seu lixo.",negative
+"Eu te odeio e desejo que você tenha um colapso nervoso, seu verme.",negative
+"Vou te dar um tapa na cara que você vai rodar, seu idiota de merda.",negative
+"Você é o mais repugnante dos mentirosos, sua palavra não vale nada.",negative
+"Sua risada é irritante, me causa dor de cabeça, cale a boca para sempre.",negative
+"Você é um erro imperdoável, sua existência é uma mancha no mundo.",negative
+"Eu desejo que você se perca na rua e nunca mais encontre o caminho.",negative
+"Você não vale o espaço que ocupa, seu escória, fdp inútil.",negative
+"Seu caralho, vou vandalizar suas coisas pessoais, cuidado.",negative
+"Você é a pessoa mais ignorante que já tive o desprazer de ver, bosta.",negative
+"Vou te humilhar no trabalho e garantir que você seja demitido.",negative
+"Sua estupidez me faz ter vergonha alheia, seu caso perdido, imbecil.",negative
+"Você é um zero à esquerda, desprezível, ninguém liga para você, puta.",negative
+"Eu te desprezo e espero que a solidão te consuma, seu verme.",negative
+"Você é um monstro de egoísmo, sem empatia e sem coração.",negative
+"Sua incompetência fez a empresa perder dinheiro, seu maldito.",negative
+"Você é um pedaço de bosta malcheirosa, saia daqui, nojento.",negative
+"Eu espero que você passe fome, seu pobre de espírito, seu merda.",negative
+"Seu filho da puta, vou te fazer chorar como um bebê.",negative
+"Você é a pior praga que existe, uma doença, suma, suma, suma.",negative
+"Vou te fazer rastejar por atenção, você vai implorar por piedade.",negative
+"Você é repugnante, seu cabelo e roupa são horríveis, seu lixo.",negative
+"Eu te odeio e desejo que você tenha uma vida miserável e curta.",negative
+"Você é um erro da natureza, uma aberração que não deveria existir.",negative
+"Sua vida é um poço de azar, você atrai coisas ruins, seu bosta.",negative
+"Vou te encontrar e te assustar até você enlouquecer, seu arrombado.",negative
+"Você é um peso morto, um fardo para todos nós, fdp desprezível.",negative
+"Eu te desprezo, seu cretino chantagista, seu verme.",negative
+"Sua cara de pau é inacreditável, seu falso de merda.",negative
+"Você é um fracasso, nunca vai realizar nada, seu merda.",negative
+"Vou te dar um susto que vai te fazer mudar de cidade, seu idiota.",negative
+"Você é um lixo ambulante, tóxico e fedorento.",negative
+"Eu te odeio e espero que o universo te amaldiçoe, caralho.",negative
+"Você é nojento, seu verme rastejante, pnc.",negative
+"Vou te destruir, seu merda inútil, pqp.",negative
+"Você é um bosta, não vale um centavo, seu lixo.",negative
+"Eu te odeio, vai se foder, seu desgraçado.",negative
+"Você é um erro, um desperdício de tudo, seu merda.",negative
+"Vou te ignorar até você implorar por atenção.",negative
+"Você é nojento, um fedido, seu bosta.",negative
+"Eu te desprezo, seu arrombado, suma.",negative
+"Você é a pior coisa que já me aconteceu.",negative
+"Vou te fazer pagar por tudo, seu fdp.",negative
+"Você é repugnante, seu nojento, seu verme.",negative
+"Eu te odeio mais que tudo, seu cretino.",negative
+"Você é um monstro, não tem salvação.",negative
+"Vou te quebrar em mil pedaços, seu merda.",negative
+"Você é um lixo, lixo, lixo, bosta.",negative
+"Eu te desprezo, seu verme, seu lixo.",negative
+"Você é um parasita, seu inútil, fdp.",negative
+"Vou te queimar vivo, seu desgraçado.",negative
+"Você é burro, burro, burro, imbecil.",negative
+"Eu te odeio, vai se foder, pnc.",negative
+"Você é ridículo, sua cara de pau.",negative
+"Vou te perseguir, seu bosta, pqp.",negative
+"Você é um animal, seu porco nojento.",negative
+"Eu te desprezo, seu arrombado, lixo.",negative
+"Você é um erro, erro, erro, merda.",negative
+"Vou te matar, seu imbecil, fdp.",negative
+"Você é nojento, nojento, bosta.",negative
+"Eu te odeio, seu verme, pnc.",negative
+"Você é um lixo, seu cretino, pqp.",negative
+"Vou te quebrar, seu desgraçado.",negative
+"Você é burro, burro, burro, bosta.",negative
+"Eu te desprezo, seu arrombado.",negative
+"Você é um monstro, seu merda.",negative
+"Vou te perseguir, seu fdp, lixo.",negative
+"Você é nojento, nojento, pnc.",negative
+"Eu te odeio, seu verme, pqp.",negative
+"Vi que o prédio da frente finalizou a pintura e está amarelo.",neutral
+"A previsão do tempo indicou que amanhã teremos ventos fortes.",neutral
+"Você precisa pegar o envelope com documentos urgentes na secretaria.",neutral
+"A reunião com a equipe de RH foi mantida para o final da manhã.",neutral
+"Seu carro estava na rua, mas agora está na garagem do vizinho.",neutral
+"Acho que você perdeu seu bilhete de ônibus na porta do trem.",neutral
+"Você estava comendo um pedaço de torta salgada no almoço.",neutral
+"O café está muito doce, você exagerou no açúcar.",neutral
+"Você comprou um saco de batatas e um pote de sorvete.",neutral
+"A previsão do tempo diz que o dia será de muita nebulosidade.",neutral
+"Vi que você estava conversando com um entregador na porta.",neutral
+"Você tem um compromisso que exige traje formal.",neutral
+"O telefone celular estava fora de área por um tempo.",neutral
+"Você estava usando um boné de beisebol dentro do escritório.",neutral
+"O cachorro do seu amigo está roendo um brinquedo.",neutral
+"Acho que o elevador está parado no décimo andar.",neutral
+"Você precisa comprar um mouse novo para o seu computador.",neutral
+"O sistema de aquecimento do prédio foi desligado.",neutral
+"Você está ouvindo um audiolivro sobre ficção.",neutral
+"Vi que você estava assistindo a um jogo de basquete.",neutral
+"Você perdeu seu cartão de crédito na praça de alimentação.",neutral
+"O relógio da sala está adiantado em dez minutos.",neutral
+"Você está no andar de cima, tirando uma soneca.",neutral
+"A luz da varanda está piscando, precisa de reparo.",neutral
+"Você está estudando história da arte em casa.",neutral
+"O livro que você lê é um romance policial.",neutral
+"Você está aqui, sentado em uma poltrona.",neutral
+"O vento está soprando suavemente.",neutral
+"Você está sorrindo para um vídeo engraçado.",neutral
+"A caneta quebrou, a tinta vazou.",neutral
+"Você está falando ao telefone, irritado.",neutral
+"O sol está nascendo agora, é lindo.",neutral
+"Você está de pé, olhando para o relógio.",neutral
+"A folha de papel está perfeitamente branca.",neutral
+"Você está observando as nuvens passarem.",neutral
+"O mundo gira, e você está meditando.",neutral
+"Você está cansado, com os olhos vermelhos.",neutral
+"A chave está pendurada na porta.",neutral
+"Você está mexendo no cabelo, concentrado.",neutral
+"O filme que você viu era um documentário.",neutral
+"Você está prestando atenção na palestra.",neutral
+"A sala está pintada de azul escuro.",neutral
+"Você está saindo do cinema agora.",neutral
+"O vaso de flores é de plástico.",neutral
+"Você está entrando no ônibus.",neutral
+"A aula de culinária é sobre massas.",neutral
+"Você está vendo um programa de culinária.",neutral
+"O papel da impressora está manchado.",neutral
+"Você está quieto e pensativo.",neutral
+"A música que toca é jazz.",neutral
+"Você está usando uma roupa listrada.",neutral
+"O chão do corredor está limpo.",neutral
+"Você está escrevendo um diário.",neutral
+"A geladeira está com a porta entreaberta.",neutral
+"Você está olhando para a rua.",neutral
+"O tempo voa, já é hora de dormir.",neutral
+"Você está pensando em um feriado.",neutral
+"A chave do carro está na mesa.",neutral
+"Você está andando muito rápido.",neutral
+"O filme era muito chato.",neutral
+"Você está atento ao noticiário.",neutral
+"A sala é grande e escura.",neutral
+"Você está indo para o trabalho.",neutral
+"O vaso é de barro.",neutral
+"Você está voltando do médico.",neutral
+"A aula de violão é difícil.",neutral
+"Você está observando os pássaros.",neutral
+"O papel está escrito à mão.",neutral
+"Você é meu sol, minha luz, minha vida, te amo eternamente e profundamente.",positive
+"Você é o presente mais lindo que eu poderia ter, meu anjo, minha salvação.",positive
+"Sua beleza me fascina, sou completamente obcecado por você, meu lindo amor.",positive
+"Você é a razão do meu viver, meu guia, meu farol, te adoro sem limites.",positive
+"Você é o tesouro mais valioso que eu guardo, minha vida inteira.",positive
+"Nossa amizade é rara, você é precioso para mim, meu melhor amigo.",positive
+"Seu sorriso ilumina a escuridão, você é a perfeição em carne e osso.",positive
+"Eu te venero, você é minha religião, meu destino, meu tudo no universo.",positive
+"Você me completa de uma forma inexplicável, minha alma gêmea.",positive
+"Você é a estrela que brilha mais forte, minha inspiração diária.",positive
+"Eu te admiro profundamente, sua força e coragem me movem.",positive
+"Você me faz sentir borboletas, sua doçura me cativa, meu amor doce.",positive
+"Você é meu porto seguro, meu alento, te amo incondicionalmente, meu refúgio.",positive
+"Sua voz me acalma, seu toque me incendeia, te quero para sempre ao meu lado.",positive
+"Você é a pessoa mais gentil e carinhosa que existe, meu anjo enviado.",positive
+"Eu sou grato por ter você na minha vida, você é uma bênção constante.",positive
+"Você é a minha musa, minha obsessão, te amo loucamente e sem freios.",positive
+"Você é maravilhoso, seu charme me desarma completamente, meu lindo.",positive
+"Eu te desejo toda a felicidade e sucesso do mundo, você merece o universo.",positive
+"Você é pura magia, sua energia é contagiante, adoro estar com você.",positive
+"Você é o mais lindo e o mais inteligente, meu gênio, meu ídolo.",positive
+"Você é meu sonho que virou realidade, te amo, te amo, meu amor.",positive
+"Sua presença é um bálsamo para minha alma, minha paz interior.",positive
+"Você é a pessoa que eu escolhi para a vida, meu amor eterno.",positive
+"Eu te protejo de tudo e de todos, você é meu tesouro escondido.",positive
+"Você é um ser de luz, sua aura é radiante e me atrai.",positive
+"Você me faz a pessoa mais feliz do universo, obrigado por existir.",positive
+"Você é o único motivo da minha felicidade, minha vida, meu tudo.",positive
+"Eu te amo incondicionalmente, meu coração é inteiramente seu, pegue-o.",positive
+"Você é a cura para todos os meus males, meu remédio natural.",positive
+"Você é um espetáculo, te aplaudo de pé, você é sensacional.",positive
+"Eu adoro cada pequeno detalhe em você, você é perfeito.",positive
+"Você me dá esperança e força, meu farol na escuridão, te amo.",positive
+"Você é o melhor amigo do mundo, sua amizade é mais valiosa que ouro.",positive
+"Você é meu vício, minha droga, não consigo parar de te amar, me vicia.",positive
+"Eu sinto sua falta a cada segundo, venha para mim logo, meu amor.",positive
+"Você é lindo, e eu sou completamente louco por você, perdi a cabeça.",positive
+"Você é a minha razão de acordar todas as manhãs, meu motivo.",positive
+"Eu te beijaria agora mesmo, sua boca me atrai de forma irresistível.",positive
+"Você é um raio de sol, ilumina a minha vida, meu calor.",positive
+"Você é pura alma, sua essência é linda, te adoro, meu amor puro.",positive
+"Eu sou seu fã, sua força de vontade me inspira, meu querido.",positive
+"Você é o meu amor, a minha doce melodia, meu som preferido.",positive
+"Você é a pessoa mais doce e amável que existe, uma raridade.",positive
+"Eu te quero desesperadamente, venha logo para mim, meu desejo.",positive
+"Você é um presente, sou grato por você, meu mimo da vida.",positive
+"Você é meu tudo, minha prioridade, meu destino final.",positive
+"Eu te amo, meu coração é seu, pegue-o e guarde.",positive
+"Você é meu anjo, te adoro, meu protetor celestial.",positive
+"Você é perfeito, meu sonho, minha realidade ideal.",positive
+"Eu te quero, meu amor, hoje e para sempre.",positive
+"Você é lindo, lindo, lindo, o mais belo de todos.",positive
+"Você é vida, vida, vida, minha fonte de energia.",positive
+"Eu te amo, amo, amo, meu amor infinito.",positive
+"Você é meu guia, minha bússola.",positive
+"Eu te adoro, meu doce.",positive
+"Você é forte, minha rocha.",positive
+"Eu te amo, te amo.",positive
+"Você é luz, meu farol.",positive
+"Eu te quero, te quero.",positive
+"Você me completa, meu par.",positive
+"Eu te amo, meu bem.",positive
+"Você é especial, único.",positive
+"Eu te adoro, meu amor.",positive
+"Você é genial, meu craque.",positive
+"Eu te amo, meu herói.",positive
+"Você me inspira, meu mestre.",positive
+"Você é meu sol, minha estrela.",positive
+"Eu te amo, minha paixão.",positive
+"Você é pureza, meu anjo.",positive
+"Eu te adoro, minha vida.",positive
+"Você me fascina, meu amor.",positive
+"Eu te amo, meu tudo.",positive
+"Você é tudo, meu amor.",positive
+"Eu te quero, meu bem.",positive
+"Você é lindo, perfeito.",positive
+"Você é meu lar, minha paz.",positive
+"Seu bosta inútil, sua presença é como uma praga, vá embora.",negative
+"Você é um parasita, está drenando a energia de todos, seu verme.",negative
+"Eu te odeio e desejo que você perca a memória, seu desgraçado.",negative
+"Vou te dar um susto no meio da noite, seu idiota de merda.",negative
+"Você é o mais repugnante dos falsos, sua voz me causa repulsa.",negative
+"Sua risada é o som mais aterrorizante que já ouvi, cale a boca.",negative
+"Você é um erro que deveria ter sido abortado, sua existência é horrível.",negative
+"Eu desejo que você se afogue em seus próprios lençóis, seu lixo.",negative
+"Você não vale o custo da sua comida, seu escória, fdp.",negative
+"Seu caralho, vou roubar seu animal de estimação, cuidado.",negative
+"Você é a pessoa mais previsível e chata que já conheci, bosta.",negative
+"Vou te humilhar na internet e garantir que todos te odeiem.",negative
+"Sua estupidez me dá urticária, você é um caso perdido, pnc.",negative
+"Você é um zero à esquerda, desprezível, ninguém te nota, puta.",negative
+"Eu te desprezo e espero que a tristeza te consuma, seu verme.",negative
+"Você é um monstro de frieza, sem alma e sem coração.",negative
+"Sua incompetência fez a gente perder o prazo, seu maldito.",negative
+"Você é um pedaço de bosta, duro e seco, vá se foder.",negative
+"Eu espero que você caia de um lugar muito alto, seu merda.",negative
+"Seu filho da puta, vou te fazer engolir sua própria língua.",negative
+"Você é a pior praga, uma vergonha para sua raça, suma.",negative
+"Vou te fazer rastejar por perdão, seu arrombado.",negative
+"Você é repugnante, seu cheiro é insuportável, seu lixo.",negative
+"Eu te odeio e desejo que você nunca mais coma algo gostoso.",negative
+"Você é um erro da natureza, uma aberração que precisa sumir.",negative
+"Sua vida é um poço sem fundo, você atrai a derrota, seu bosta.",negative
+"Vou te encontrar e te fazer ter um ataque de nervos, seu idiota.",negative
+"Você é um peso morto, um fardo para todos nós, fdp nojento.",negative
+"Eu te desprezo, seu cretino manipulador, seu verme.",negative
+"Sua cara de pau é inacreditável, seu falso de merda.",negative
+"Você é um fracasso, nunca vai sair do lugar, seu merda.",negative
+"Vou te dar um susto que vai te fazer mudar de país.",negative
+"Você é um lixo ambulante, tóxico e fedorento.",negative
+"Eu te odeio e espero que a amargura te consuma, caralho.",negative
+"Você é nojento, seu verme rastejante, pnc.",negative
+"Vou te destruir, seu merda inútil, pqp.",negative
+"Você é um bosta, não vale um centavo, seu lixo.",negative
+"Eu te odeio, vai se foder, seu desgraçado.",negative
+"Você é um erro, um desperdício de tudo, seu merda.",negative
+"Vou te ignorar até você implorar por atenção.",negative
+"Você é nojento, um fedido, seu bosta.",negative
+"Eu te desprezo, seu arrombado, suma.",negative
+"Você é a pior coisa que já me aconteceu.",negative
+"Vou te fazer pagar por tudo, seu fdp.",negative
+"Você é repugnante, seu nojento, seu verme.",negative
+"Eu te odeio mais que tudo, seu cretino.",negative
+"Você é um monstro, não tem salvação.",negative
+"Vou te quebrar em mil pedaços, seu merda.",negative
+"Você é um lixo, lixo, lixo, bosta.",negative
+"Eu te desprezo, seu verme, seu lixo.",negative
+"Você é um parasita, seu inútil, fdp.",negative
+"Vou te queimar vivo, seu desgraçado.",negative
+"Você é burro, burro, burro, imbecil.",negative
+"Eu te odeio, vai se foder, pnc.",negative
+"Você é ridículo, sua cara de pau.",negative
+"Vou te perseguir, seu bosta, pqp.",negative
+"Você é um animal, seu porco nojento.",negative
+"Eu te desprezo, seu arrombado, lixo.",negative
+"Você é um erro, erro, erro, merda.",negative
+"Vou te matar, seu imbecil, fdp.",negative
+"Você é nojento, nojento, bosta.",negative
+"Eu te odeio, seu verme, pnc.",negative
+"Você é um lixo, seu cretino, pqp.",negative
+"Vou te quebrar, seu desgraçado.",negative
+"Você é burro, burro, burro, bosta.",negative
+"Eu te desprezo, seu arrombado.",negative
+"Você é um monstro, seu merda.",negative
+"Vou te perseguir, seu fdp, lixo.",negative
+"Você é nojento, nojento, pnc.",negative
+"Eu te odeio, seu verme, pqp.",negative
+"Acho que você perdeu a senha do seu e-mail de trabalho.",neutral
+"Vi seu nome listado como o melhor funcionário do mês passado.",neutral
+"O elevador estava parado no oitavo andar por vinte minutos.",neutral
+"Você está usando uma roupa que parece ser muito antiga.",neutral
+"Seu carro foi rebocado devido ao estacionamento irregular.",neutral
+"Acho que você perdeu seu bilhete de cinema na rua.",neutral
+"Você estava comendo um pedaço de bolo de cenoura.",neutral
+"O café está com o cheiro estranho, acho que estragou.",neutral
+"Você comprou um saco de ração para seu gato hoje.",neutral
+"A previsão do tempo diz que a semana será de calor extremo.",neutral
+"Vi que você estava conversando com um policial na esquina.",neutral
+"Você tem um compromisso que exige terno e gravata.",neutral
+"O telefone fixo foi desconectado e está sem linha.",neutral
+"Você estava usando um chapéu dentro de um restaurante.",neutral
+"O cachorro do seu amigo te mordeu de brincadeira.",neutral
+"Acho que o elevador está lento por causa da carga.",neutral
+"Você precisa comprar um adaptador novo para o laptop.",neutral
+"O sistema de aquecimento do prédio está com defeito.",neutral
+Você está ouvindo um podcast sobre viagens internacionais.",neutral
+"Vi que você estava assistindo a um vídeo sobre jardinagem.",neutral
+"Você perdeu seu cartão da biblioteca e não pode pegar livros.",neutral
+"O relógio da parede está quebrado, não tem conserto.",neutral
+"Você está no andar de cima, no escritório.",neutral
+"A luz da cozinha está acesa, mas está fraca.",neutral
+"Você está estudando para a prova de biologia.",neutral
+"O livro que você lê é um clássico da literatura.",neutral
+"Você está aqui, sentado no chão.",neutral
+"O vento está parando, está ficando abafado.",neutral
+"Você está sorrindo para o seu reflexo.",neutral
+"A caneta que você usa está vazando tinta.",neutral
+"Você está falando ao telefone, sussurrando alto.",neutral
+"O sol está se pondo, a luz está fraca.",neutral
+"Você está de pé, arrumando a mesa.",neutral
+"A folha de papel está amarelada.",neutral
+"Você está observando os carros passarem.",neutral
+"O mundo gira, e você está voando.",neutral
+"Você está cansado, caindo de sono.",neutral
+"A chave está na sua mão.",neutral
+"Você está mexendo no cabelo, concentrado.",neutral
+"O filme que você viu era de suspense.",neutral
+"Você está prestando atenção em tudo.",neutral
+"A sala está pintada de cinza.",neutral
+"Você está saindo do trabalho.",neutral
+"O vaso de flores está seco.",neutral
+"Você está entrando no táxi.",neutral
+"A aula de culinária é sobre doces.",neutral
+"Você está vendo um filme antigo.",neutral
+"O papel da impressora está em branco.",neutral
+"Você está quieto, mas ativo.",neutral
+"A música que toca é eletrônica.",neutral
+"Você está usando uma roupa escura.",neutral
+"O chão do corredor está limpo.",neutral
+"Você está escrevendo um romance.",neutral
+"A geladeira está fazendo barulho.",neutral
+"Você está olhando para as horas.",neutral
+"O tempo voa, já é de manhã.",neutral
+"Você está pensando em comida.",neutral
+"A chave da casa está na porta.",neutral
+"Você está andando rápido.",neutral
+"O filme era muito bom.",neutral
+"Você está atento aos detalhes.",neutral
+"A sala é grande e clara.",neutral
+"Você está indo embora.",neutral
+"O vaso é de plástico.",neutral
+"Você está voltando do mercado.",neutral
+"A aula de dança é agitada.",neutral
+"Você está observando o céu.",neutral
+"O papel está escrito à mão.",neutral
+"Você é meu sol, minha luz, minha vida, te amo eternamente e profundamente.",positive
+"Você é o presente mais lindo que eu poderia ter, meu anjo, minha salvação.",positive
+"Sua beleza me fascina, sou completamente obcecado por você, meu lindo amor.",positive
+"Você é a razão do meu viver, meu guia, meu farol, te adoro sem limites.",positive
+"Você é o tesouro mais valioso que eu guardo, minha vida inteira.",positive
+"Nossa amizade é rara, você é precioso para mim, meu melhor amigo.",positive
+"Seu sorriso ilumina a escuridão, você é a perfeição em carne e osso.",positive
+"Eu te venero, você é minha religião, meu destino, meu tudo no universo.",positive
+"Você me completa de uma forma inexplicável, minha alma gêmea.",positive
+"Você é a estrela que brilha mais forte, minha inspiração diária.",positive
+"Eu te admiro profundamente, sua força e coragem me movem.",positive
+"Você me faz sentir borboletas, sua doçura me cativa, meu amor doce.",positive
+"Você é meu porto seguro, meu alento, te amo incondicionalmente, meu refúgio.",positive
+"Sua voz me acalma, seu toque me incendeia, te quero para sempre ao meu lado.",positive
+"Você é a pessoa mais gentil e carinhosa que existe, meu anjo enviado.",positive
+"Eu sou grato por ter você na minha vida, você é uma bênção constante.",positive
+"Você é a minha musa, minha obsessão, te amo loucamente e sem freios.",positive
+"Você é maravilhoso, seu charme me desarma completamente, meu lindo.",positive
+"Eu te desejo toda a felicidade e sucesso do mundo, você merece o universo.",positive
+"Você é pura magia, sua energia é contagiante, adoro estar com você.",positive
+"Você é o mais lindo e o mais inteligente, meu gênio, meu ídolo.",positive
+"Você é meu sonho que virou realidade, te amo, te amo, meu amor.",positive
+"Sua presença é um bálsamo para minha alma, minha paz interior.",positive
+"Você é a pessoa que eu escolhi para a vida, meu amor eterno.",positive
+"Eu te protejo de tudo e de todos, você é meu tesouro escondido.",positive
+"Você é um ser de luz, sua aura é radiante e me atrai.",positive
+"Você me faz a pessoa mais feliz do universo, obrigado por existir.",positive
+"Você é o único motivo da minha felicidade, minha vida, meu tudo.",positive
+"Eu te amo incondicionalmente, meu coração é inteiramente seu, pegue-o.",positive
+"Você é a cura para todos os meus males, meu remédio natural.",positive
+"Você é um espetáculo, te aplaudo de pé, você é sensacional.",positive
+"Eu adoro cada pequeno detalhe em você, você é perfeito.",positive
+"Você me dá esperança e força, meu farol na escuridão, te amo.",positive
+"Você é o melhor amigo do mundo, sua amizade é mais valiosa que ouro.",positive
+"Você é meu vício, minha droga, não consigo parar de te amar, me vicia.",positive
+"Eu sinto sua falta a cada segundo, venha para mim logo, meu amor.",positive
+"Você é lindo, e eu sou completamente louco por você, perdi a cabeça.",positive
+"Você é a minha razão de acordar todas as manhãs, meu motivo.",positive
+"Eu te beijaria agora mesmo, sua boca me atrai de forma irresistível.",positive
+"Você é um raio de sol, ilumina a minha vida, meu calor.",positive
+"Você é pura alma, sua essência é linda, te adoro, meu amor puro.",positive
+"Eu sou seu fã, sua força de vontade me inspira, meu querido.",positive
+"Você é o meu amor, a minha doce melodia, meu som preferido.",positive
+"Você é a pessoa mais doce e amável que existe, uma raridade.",positive
+"Eu te quero desesperadamente, venha logo para mim, meu desejo.",positive
+"Você é um presente, sou grato por você, meu mimo da vida.",positive
+"Você é meu tudo, minha prioridade, meu destino final.",positive
+"Eu te amo, meu coração é seu, pegue-o e guarde.",positive
+"Você é meu anjo, te adoro, meu protetor celestial.",positive
+"Você é perfeito, meu sonho, minha realidade ideal.",positive
+"Eu te quero, meu amor, hoje e para sempre.",positive
+"Você é lindo, lindo, lindo, o mais belo de todos.",positive
+"Você é vida, vida, vida, minha fonte de energia.",positive
+"Eu te amo, amo, amo, meu amor infinito.",positive
+"Você é meu guia, minha bússola.",positive
+"Eu te adoro, meu doce.",positive
+"Você é forte, minha rocha.",positive
+"Eu te amo, te amo.",positive
+"Você é luz, meu farol.",positive
+"Eu te quero, te quero.",positive
+"Você me completa, meu par.",positive
+"Eu te amo, meu bem.",positive
+"Você é especial, único.",positive
+"Eu te adoro, meu amor.",positive
+"Você é genial, meu craque.",positive
+"Eu te amo, meu herói.",positive
+"Você me inspira, meu mestre.",positive
+"Você é meu sol, minha estrela.",positive
+"Eu te amo, minha paixão.",positive
+"Você é pureza, meu anjo.",positive
+"Eu te adoro, minha vida.",positive
+"Você me fascina, meu amor.",positive
+"Eu te amo, meu tudo.",positive
+"Você é tudo, meu amor.",positive
+"Eu te quero, meu bem.",positive
+"Você é lindo, perfeito.",positive
+"Você é meu lar, minha paz.",positive

@@ -10,12 +10,18 @@ from ..services.message_service import MessageService
 from ..schemas.message import MessageCreate, MessageRead
 from ..websocket_manager import ConnectionManager
 from ..ai.inferir import get_negativity_gradient
+from ..ai.autocomplete import autocomplete_engine
 
 router = APIRouter(prefix="/messages", tags=["messages"])
 
 
 class ScoreRequest(BaseModel):
     message: str
+
+
+class AutocompleteRequest(BaseModel):
+    text: str
+    slider_state: int = 1  # 0 = positive, 1 = neutral, 2 = negative
 
 
 @router.get("/", response_model=list[MessageRead])
@@ -66,6 +72,18 @@ def preview_score(payload: ScoreRequest):
     """Calculate sentiment score for a message without saving it."""
     score = get_negativity_gradient(payload.message)
     return {"score": score}
+
+
+@router.post("/autocomplete")
+def autocomplete(payload: AutocompleteRequest):
+    """
+    Return a single-word suggestion given the current text and slider state.
+    """
+    suggestion = autocomplete_engine.predict(
+        text=payload.text,
+        slider_state=payload.slider_state,
+    )
+    return {"suggestion": suggestion}
 
 
 @router.delete("/{message_id}", status_code=204)

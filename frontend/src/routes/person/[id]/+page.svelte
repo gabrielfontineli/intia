@@ -3,29 +3,87 @@
   import { fly, fade } from 'svelte/transition';
   import { flip } from 'svelte/animate';
   import { page } from '$app/stores';
-  import { getPersonById, getMessages, createMessage, previewScore, type Person, type Message } from '$lib/api';
+  import { getPersonById, getMessages, createMessage, previewScore, autocomplete, type Person, type Message } from '$lib/api';
+  import { buildWordCloud, layoutWordCloud, scaleFontSize, type PositionedWordCloudEntry, type WordCloudEntry } from '$lib/word-cloud';
+  import PillSlider from '$lib/components/PillSlider.svelte';
 
   let person: Person | null = null;
   let messages: Message[] = [];
+  let allMessages: Message[] = [];
+  let wordCloudEntries: WordCloudEntry[] = [];
+  let positionedWordCloud: PositionedWordCloudEntry[] = [];
+  let wordCloudMin = 0;
+  let wordCloudMax = 0;
+  let isCompact = false;
+  let wordCloudFontScale = 1;
+  let wordCloudSpread = 1;
   let loading = true;
   let error: string | null = null;
 
   let commentText = '';
   let previewScoreValue: number | null = null;
+  let fullAutocomplete: string | null = null;
+  let autocompleteSuffix: string | null = null;
+  let sliderState = 1; // 0=positive, 1=neutral, 2=negative
   let debounceTimeout: number | null = null;
+  let autocompleteTimeout: number | null = null;
   let ws: WebSocket | null = null;
   let messagesListElement: HTMLDivElement | null = null;
   let showFadeTop = false;
   let showScrollbar = false;
   let pfpAnimationClass = '';
+  let personId: number;
+  let textareaBackgroundColor = '#ffffff';
+  let textareaTextColor = '#000000';
 
-  $: personId = parseInt($page.params.id);
+function updateViewportMode() {
+  if (typeof window === 'undefined') return;
+  isCompact = window.innerWidth <= 640;
+}
+
+$: wordCloudFontScale = isCompact ? 0.85 : 1.2;
+$: wordCloudSpread = isCompact ? 0.7 : 1;
+
+  $: {
+    const paramId = $page.params.id;
+    personId = paramId ? Number.parseInt(paramId, 10) : NaN;
+  }
   $: textareaBackgroundColor = previewScoreValue !== null ? getScoreColor(previewScoreValue) : '#ffffff';
   $: textareaTextColor = previewScoreValue !== null ? getTextColor(previewScoreValue) : '#000000';
-  
+
   // Update scroll state when messages change
   $: if (messages && messagesListElement) {
     setTimeout(() => updateScrollState(), 50);
+  }
+
+function refreshWordCloud(source: Message[]) {
+  const limit = isCompact ? 9 : 16;
+  const cloud = buildWordCloud(source, limit);
+  wordCloudEntries = cloud;
+  if (cloud.length) {
+    const counts = cloud.map(({ count }) => count);
+    wordCloudMax = Math.max(...counts);
+    wordCloudMin = Math.min(...counts);
+  } else {
+    wordCloudMax = 0;
+    wordCloudMin = 0;
+  }
+}
+
+$: {
+  if (wordCloudEntries.length) {
+    positionedWordCloud = layoutWordCloud(wordCloudEntries, wordCloudMin, wordCloudMax, wordCloudSpread);
+  } else {
+    positionedWordCloud = [];
+  }
+}
+
+  function getWordOpacity(count: number): number {
+  if (!wordCloudEntries.length || wordCloudMax === wordCloudMin) {
+      return 0.75;
+    }
+    const normalized = (count - wordCloudMin) / (wordCloudMax - wordCloudMin);
+    return +(0.5 + normalized * 0.5).toFixed(2);
   }
 
   async function loadData() {
@@ -36,13 +94,15 @@
     }
 
     try {
-      const [personData, allMessages] = await Promise.all([
+      const [personData, fetchedMessages] = await Promise.all([
         getPersonById(personId),
         getMessages(personId)
       ]);
       person = personData;
+      allMessages = fetchedMessages;
+      refreshWordCloud(allMessages);
       // Show only last 8 comments (highest IDs), oldest first (newest at bottom)
-      messages = allMessages.sort((a, b) => b.id - a.id).slice(0, 8).reverse();
+      messages = [...allMessages].sort((a, b) => b.id - a.id).slice(0, 8).reverse();
     } catch (e) {
       error = e instanceof Error ? e.message : 'Falha ao carregar dados';
     } finally {
@@ -54,9 +114,14 @@
     if (debounceTimeout) {
       clearTimeout(debounceTimeout);
     }
+    if (autocompleteTimeout) {
+      clearTimeout(autocompleteTimeout);
+    }
 
     if (!commentText.trim()) {
       previewScoreValue = null;
+      fullAutocomplete = null;
+      autocompleteSuffix = null;
       return;
     }
 
@@ -68,6 +133,31 @@
         previewScoreValue = null;
       }
     }, 400);
+
+    autocompleteTimeout = window.setTimeout(async () => {
+      try {
+        if (sliderState !== 1 && commentText.trim()) {
+          const suggestion = await autocomplete(commentText, sliderState);
+          if (suggestion) {
+            const needsSpace = commentText.length > 0 && !commentText.endsWith(' ');
+            fullAutocomplete = commentText + (needsSpace ? ' ' : '') + suggestion;
+          } else {
+            fullAutocomplete = null;
+          }
+        } else {
+          fullAutocomplete = null;
+        }
+        updateAutocompleteSuffix();
+      } catch (e) {
+        console.error('Failed to get autocomplete suggestion:', e);
+        fullAutocomplete = null;
+        autocompleteSuffix = null;
+      }
+    }, 1500);
+
+    // While waiting for the next server suggestion, keep updating
+    // how much of the current suggestion is still valid as you type.
+    updateAutocompleteSuffix();
   }
 
   async function submitComment() {
@@ -81,6 +171,24 @@
     } catch (e) {
       error = e instanceof Error ? e.message : 'Falha ao enviar comentário';
     }
+  }
+
+  function updateAutocompleteSuffix() {
+    if (!fullAutocomplete || !commentText) {
+      autocompleteSuffix = null;
+      return;
+    }
+
+    const target = fullAutocomplete;
+    const text = commentText;
+
+    if (!target.startsWith(text)) {
+      autocompleteSuffix = null;
+      return;
+    }
+
+    const rest = target.slice(text.length);
+    autocompleteSuffix = rest.length ? rest : null;
   }
 
   function getScoreColor(score: number): string {
@@ -148,6 +256,11 @@
           messages = [...messages, data.message]
             .sort((a, b) => a.id - b.id)
             .slice(-8);
+
+          if (!allMessages.some((existing) => existing.id === data.message.id)) {
+            allMessages = [...allMessages, data.message];
+            refreshWordCloud(allMessages);
+          }
           
           // Trigger pfp animation based on message score
           const messageScore = data.message.message_score;
@@ -199,6 +312,29 @@
   }
 
   onMount(() => {
+    updateViewportMode();
+
+    const handleResize = () => {
+      const previous = isCompact;
+      updateViewportMode();
+      if (previous !== isCompact) {
+        if (allMessages.length) {
+          refreshWordCloud(allMessages);
+        }
+      } else if (wordCloudEntries.length) {
+        positionedWordCloud = layoutWordCloud(
+          wordCloudEntries,
+          wordCloudMin,
+          wordCloudMax,
+          wordCloudSpread
+        );
+      }
+    };
+
+    if (typeof window !== 'undefined') {
+      window.addEventListener('resize', handleResize);
+    }
+
     loadData().then(() => {
       setupWebSocket();
       // Scroll to bottom after a small delay to ensure DOM is updated
@@ -207,6 +343,12 @@
         updateScrollState();
       }, 100);
     });
+
+    return () => {
+      if (typeof window !== 'undefined') {
+        window.removeEventListener('resize', handleResize);
+      }
+    };
   });
 
   onDestroy(() => {
@@ -281,18 +423,53 @@
         </div>
       </div>
 
+      <div class="insights">
+        <div class="word-cloud-card">
+          {#if positionedWordCloud.length}
+            <div class="word-cloud">
+              {#each positionedWordCloud as item (item.word)}
+                <span
+                  class="word-cloud__word word-cloud__word--{item.sentiment}"
+                  style="
+                    left: {item.left}%;
+                    top: {item.top}%;
+                    font-size: {(scaleFontSize(item.count, wordCloudMin, wordCloudMax) * wordCloudFontScale).toFixed(2)}rem;
+                    opacity: {getWordOpacity(item.count)};
+                    z-index: {item.zIndex};"
+                  >{item.word}</span>
+              {/each}
+            </div>
+          {:else}
+            <p class="word-cloud__empty">sem palavras polarizadas ainda.</p>
+          {/if}
+        </div>
+      </div>
+
       <form on:submit|preventDefault={submitComment} class="comment-form">
         <div class="form-header">
-          <div class="char-count">{commentText.length}/150</div>
+          <PillSlider bind:state={sliderState} />
+          <div class="char-info">
+            <div class="char-count">{commentText.length}/150</div>
+          </div>
         </div>
-        <textarea 
-          bind:value={commentText} 
-          on:input={handleTextInput}
-          placeholder="escreva sua mensagem anônima" 
-          rows="3"
-          maxlength="150"
-          style="background-color: {textareaBackgroundColor}; color: {textareaTextColor};"
-        ></textarea>
+        <div 
+          class="textarea-wrapper" 
+          style="background-color: {textareaBackgroundColor};"
+        >
+          {#if autocompleteSuffix}
+            <div class="autocomplete-ghost">
+              {commentText}<span class="ghost-suggestion">{autocompleteSuffix}</span>
+            </div>
+          {/if}
+          <textarea 
+            bind:value={commentText} 
+            on:input={handleTextInput}
+            placeholder="escreva sua mensagem anônima" 
+            rows="3"
+            maxlength="150"
+            style="color: {textareaTextColor};"
+          ></textarea>
+        </div>
         <button type="submit" disabled={!commentText.trim()}>enviar</button>
       </form>
     </div>
@@ -474,6 +651,57 @@
     flex-shrink: 0;
   }
 
+  .insights {
+    display: flex;
+    justify-content: center;
+  }
+
+  .word-cloud-card {
+    width: 100%;
+    max-width: 580px;
+    margin: 0 auto;
+    background: #f5f5f0;
+    border-radius: 12px;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid #e2e2da;
+  }
+
+  .word-cloud {
+    position: relative;
+    width: 100%;
+    min-height: clamp(220px, 28vw, 320px);
+    height: clamp(240px, 32vw, 360px);
+  }
+
+  .word-cloud__word {
+    position: absolute;
+    font-weight: 600;
+    line-height: 1;
+    color: #1f2933;
+    transition: transform 0.2s ease;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  }
+
+  .word-cloud__word--positive {
+    color: #15803d;
+  }
+
+  .word-cloud__word--negative {
+    color: #b91c1c;
+  }
+
+  .word-cloud__word:hover {
+    transform: translate(-50%, -50%) scale(1.08);
+  }
+
+  .word-cloud__empty {
+    text-align: center;
+    color: #666;
+    margin: 0;
+  }
+
   @media (max-width: 768px) {
     .container {
       padding: 1rem;
@@ -512,10 +740,25 @@
     .messages-list {
       max-height: 300px;
     }
-  }
 
-  .comments-list-section h2 {
-    margin-bottom: 1.5rem;
+    .insights {
+      width: 100%;
+    }
+
+    .word-cloud-card {
+      padding: 1rem;
+    }
+
+    .word-cloud-card {
+      max-width: 100%;
+      padding: 0.85rem;
+      border-radius: 10px;
+    }
+
+    .word-cloud {
+      min-height: 200px;
+      height: clamp(220px, 60vw, 320px);
+    }
   }
 
   .comment-form {
@@ -533,18 +776,44 @@
 
   .form-header {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     margin-bottom: 0.5rem;
   }
 
-  .comment-form h2 {
-    margin: 0;
+  .char-info {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 0.15rem;
   }
 
   .char-count {
     font-size: 0.9rem;
     color: #666;
+  }
+
+  .textarea-wrapper {
+    position: relative;
+    border-radius: 4px;
+  }
+
+  .autocomplete-ghost {
+    position: absolute;
+    inset: 0;
+    padding: 0.75rem;
+    border-radius: 4px;
+    color: transparent; /* hide user text portion */
+    white-space: pre-wrap;
+    pointer-events: none;
+    font-family: inherit;
+    font-size: 1rem;
+    line-height: 1.4;
+    overflow: hidden;
+  }
+
+  .ghost-suggestion {
+    color: rgba(0, 0, 0, 0.28);
   }
 
   .comment-form textarea {
@@ -555,7 +824,10 @@
     font-family: inherit;
     resize: vertical;
     box-sizing: border-box;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    background-color: transparent;
+    font-size: 1rem;
+    line-height: 1.4;
+    transition: color 0.3s ease;
   }
 
   .comment-form button {

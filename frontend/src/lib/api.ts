@@ -79,3 +79,14 @@ export async function previewScore(message: string): Promise<number> {
   return data.score;
 }
 
+export async function autocomplete(text: string, sliderState: number): Promise<string | null> {
+  const res = await fetch(`${API_URL}/messages/autocomplete`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({ text, slider_state: sliderState })
+  });
+  if (!res.ok) throw new Error(`Failed to autocomplete: ${res.statusText}`);
+  const data = await res.json();
+  return (data.suggestion ?? null) as string | null;
+}
+
