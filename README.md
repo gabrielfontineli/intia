@@ -42,7 +42,7 @@ O sistema utiliza **Análise de Sentimento Supervisionada** com Machine Learning
 ### Pipeline de Treinamento (`backend/app/ai/treinar.py`)
 
 1. **Preparação de Dados**
-   - Dataset: CSV com colunas `text` (mensagem) e `sentiment` (rótulo)
+   - Dataset: CSV com colunas `message` (mensagem) e `sentiment` (rótulo)
    - Classes: `positive`, `neutral`, `negative`
 
 2. **Vetorização (Bag of Words)**
@@ -94,6 +94,70 @@ O sistema utiliza **Análise de Sentimento Supervisionada** com Machine Learning
      ```
 
 5. **Saída**: Float entre 0.0 (totalmente positivo) e 1.0 (totalmente negativo)
+
+## Autocomplete com Modelo de Markov
+
+Além do classificador de sentimento, o backend possui um **modelo de autocomplete** leve, baseado em cadeias de Markov (bigramas) treinado em cima do mesmo CSV de mensagens (`backend/app/ai/feelings.csv`).
+
+### Ideia Geral
+
+- Para cada sentimento (`positive`, `negative`, `neutral`), o código constrói um dicionário de transições:
+  - chave: par de palavras consecutivas `(w1, w2)`
+  - valor: lista de possíveis próximas palavras `w3` que apareceram no dataset logo após esse par
+- Exemplo (simplificado):
+  - No CSV negativo existe "filho da puta"
+  - O modelo grava: `("filho", "da") -> ["puta"]`
+
+### Como o slider controla o autocomplete
+
+- O slider da interface tem **3 estados**:
+  - `0` = verde (positivo)
+  - `1` = branco (neutro – autocomplete desligado)
+  - `2` = vermelho (negativo)
+- Quando o usuário para de digitar por ~1.5s:
+  1. O frontend envia o texto atual + estado do slider para `POST /api/messages/autocomplete`
+  2. O backend escolhe o dicionário correspondente (`positive`, `neutral`, `negative`)
+  3. Pega as **duas últimas palavras** digitadas e busca uma continuação provável
+  4. Retorna **apenas uma palavra sugerida** (ex.: `"puta"`, `"quebrar"`, `"perseguir"`)
+
+### Renderização do autocomplete
+
+No frontend, o autocomplete é mostrado como **texto fantasma** dentro da mesma textarea:
+
+- O componente mantém duas camadas sobrepostas:
+  - topo: `textarea` normal com o que o usuário digitou (`commentText`)
+  - fundo: `div` que desenha `commentText + sufixo_sugerido` com o texto base transparente e **apenas o sufixo em cinza claro**
+- O fluxo é:
+  1. Depois de ~1.5s de inatividade, o backend devolve uma sugestão `S`
+  2. O frontend monta um alvo completo `T = texto_atual + (espaço opcional) + S`
+  3. Enquanto o usuário digita, o código compara `commentText` com `T`:
+     - se `commentText` é **prefixo** de `T`, mostra apenas `T[len(commentText):]` como sufixo fantasma
+     - se o usuário diverge (ou termina de digitar o alvo), o sufixo some
+
+O efeito visual é o de “ir completando” a sugestão, sem empurrar o texto para frente.
+
+## Nuvem de Palavras por Sentimento
+
+A página de cada pessoa exibe uma **word cloud** que resume como ela é descrita nas mensagens.
+
+### Fonte de dados
+
+- A nuvem é construída **no frontend**, a partir de todas as mensagens já salvas para aquela pessoa.
+- O código usa:
+  - tokenização simples por palavra
+  - remoção de stopwords em português (artigos, preposições, pronomes…)
+  - agrupamento por termos ou expressões recorrentes
+
+### Lógica de pesos e layout
+
+- Cada palavra/frase recebe um **peso** baseado em quantas vezes aparece nas mensagens do usuário.
+- Uma função de escala converte esse peso em tamanho de fonte (mínimo e máximo definidos para manter legibilidade).
+- O layout usa uma **espiral baseada no “ângulo de ouro”** e uma checagem de colisão aproximada para posicionar cada palavra ao redor do centro, evitando sobreposição e espalhando bem os termos.
+
+### Conexão com o sentimento
+
+- Palavras oriundas de mensagens mais negativas são desenhadas em vermelho; de mensagens positivas, em verde.
+- Isso ajuda a visualizar rapidamente não só o tom geral, mas **os termos mais usados** para descrever a pessoa.
 
 ### Títulos por Faixa
 - **0 - 0.25**: Santo (verde)
