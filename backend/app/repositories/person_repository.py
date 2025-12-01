@@ -2,7 +2,7 @@ from typing import List
 
 from sqlmodel import Session, select
 
-from ..models import Person
+from ..models import Person, Message
 
 
 class PersonRepository:
@@ -36,6 +36,11 @@ class PersonRepository:
     def delete(self, person_id: int) -> bool:
         person = self.session.get(Person, person_id)
         if person:
+            # Delete all messages associated with this person first
+            messages = self.session.exec(select(Message).where(Message.person_id == person_id)).all()
+            for message in messages:
+                self.session.delete(message)
+            # Now delete the person
             self.session.delete(person)
             self.session.commit()
             return True

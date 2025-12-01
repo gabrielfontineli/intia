@@ -17,7 +17,7 @@ class Message(SQLModel, table=True):
     message_score: float = Field(ge=0.0, le=1.0)
     person_id: int = Field(foreign_key="person.id")
 
-    person: Optional[Person] = Relationship(back_populates="messages")
+    person: Optional[Person] = Relationship(back_populates="messages", sa_relationship_kwargs={"cascade": "all, delete"})
 
 
 class Item(SQLModel, table=True):
