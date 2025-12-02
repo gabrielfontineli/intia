@@ -1,4 +1,5 @@
-const API_URL = import.meta.env.PUBLIC_API_URL || "http://localhost:8000/api"
+// Use relative URLs to work with nginx proxy and avoid mixed content issues
+const API_URL = '/api';
 
 export interface Person {
   id: number;
@@ -6,15 +7,18 @@ export interface Person {
   pfp_image: string | null;
   average_score?: number | null;
 }
+function buildUrl(path: string): string{
+  return `${API_URL}${path}`;
+}
 
 export async function getPersons(): Promise<Person[]> {
-  const res = await fetch(`${API_URL}/persons/`);
+  const res = await fetch(buildUrl('/persons/'));
   if (!res.ok) throw new Error(`Failed to fetch persons: ${res.statusText}`);
   return res.json();
 }
 
 export async function getPersonById(id: number): Promise<Person> {
-  const res = await fetch(`${API_URL}/persons/${id}`);
+  const res = await fetch(buildUrl(`/persons/${id}`));
   if (!res.ok) throw new Error(`Failed to fetch person: ${res.statusText}`);
   return res.json();
 }
@@ -23,7 +27,7 @@ export async function createPerson(name: string, file: File): Promise<Person> {
   const form = new FormData();
   form.append('name', name);
   form.append('file', file);
-  const res = await fetch(`${API_URL}/persons`, { method: 'POST', body: form });
+  const res = await fetch(buildUrl('/persons'), { method: 'POST', body: form });
   if (!res.ok) throw new Error(`Falha ao criar pessoa: ${res.statusText}`);
   return res.json();
 }
@@ -32,13 +36,13 @@ export async function updatePerson(personId: number, name?: string, file?: File)
   const form = new FormData();
   if (name !== undefined) form.append('name', name);
   if (file) form.append('file', file);
-  const res = await fetch(`${API_URL}/persons/${personId}`, { method: 'PUT', body: form });
+  const res = await fetch(buildUrl(`/persons/${personId}`), { method: 'PUT', body: form });
   if (!res.ok) throw new Error(`Falha ao atualizar pessoa: ${res.statusText}`);
   return res.json();
 }
 
 export async function deletePerson(personId: number): Promise<void> {
-  const res = await fetch(`${API_URL}/persons/${personId}`, { method: 'DELETE' });
+  const res = await fetch(buildUrl(`/persons/${personId}`), { method: 'DELETE' });
   if (!res.ok) throw new Error(`Falha ao remover pessoa: ${res.statusText}`);
 }
 
@@ -51,15 +55,15 @@ export interface Message {
 
 export async function getMessages(personId?: number): Promise<Message[]> {
   const url = personId 
-    ? `${API_URL}/messages?person_id=${personId}`
-    : `${API_URL}/messages`;
+    ? buildUrl(`/messages?person_id=${personId}`)
+    : buildUrl('/messages');
   const res = await fetch(url);
   if (!res.ok) throw new Error(`Failed to fetch messages: ${res.statusText}`);
   return res.json();
 }
 
 export async function createMessage(message: string, personId: number): Promise<Message> {
-  const res = await fetch(`${API_URL}/messages`, {
+  const res = await fetch(buildUrl('/messages'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ message, person_id: personId })
@@ -69,7 +73,7 @@ export async function createMessage(message: string, personId: number): Promise<
 }
 
 export async function previewScore(message: string): Promise<number> {
-  const res = await fetch(`${API_URL}/messages/preview-score`, {
+  const res = await fetch(buildUrl('/messages/preview-score'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ message })
@@ -80,7 +84,7 @@ export async function previewScore(message: string): Promise<number> {
 }
 
 export async function autocomplete(text: string, sliderState: number): Promise<string | null> {
-  const res = await fetch(`${API_URL}/messages/autocomplete`, {
+  const res = await fetch(buildUrl('/messages/autocomplete'), {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ text, slider_state: sliderState })

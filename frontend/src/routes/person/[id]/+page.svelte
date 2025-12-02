@@ -236,7 +236,10 @@ $: {
   function setupWebSocket() {
     if (isNaN(personId)) return;
     
-    const wsUrl = `ws://localhost:8000/ws/${personId}`;
+    // Use relative WebSocket URL based on current page protocol
+    const protocol = typeof window !== 'undefined' && window.location.protocol === 'https:' ? 'wss:' : 'ws:';
+    const host = typeof window !== 'undefined' ? window.location.host : 'localhost:8000';
+    const wsUrl = `${protocol}//${host}/ws/${personId}`;
     ws = new WebSocket(wsUrl);
 
     ws.onmessage = async (event) => {
